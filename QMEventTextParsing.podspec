@@ -8,35 +8,31 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QMEventTextParsing'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of QMEventTextParsing.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '1.0.1'
+  s.summary          = 'A framework to parse date, place and person from a sentence'
+  
+  # This description is used to generate tags and improve search results.
+  #   * Think: What does it do? Why did you write it? What is the focus?
+  #   * Try to keep it short, snappy and to the point.
+  #   * Write the description between the DESC delimiters below.
+  #   * Finally, don't worry about the indent, CocoaPods strips it!
+  
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  A framework to parse date, place and person from a sentence. It uses geocoding to provide a valid place. it uses relationships to provide valid person names from candidates.
+  DESC
+  
   s.homepage         = 'https://github.com/truebucha/QMEventTextParsing'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'truebucha' => 'truebucha@gmail.com' }
   s.source           = { :git => 'https://github.com/truebucha/QMEventTextParsing.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'QMEventTextParsing/Classes/**/*'
+  s.social_media_url = 'https://twitter.com/truebucha'
   
-  # s.resource_bundles = {
-  #   'QMEventTextParsing' => ['QMEventTextParsing/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '10.0'
+  s.osx.deployment_target = '10.11'
+  
+  s.source_files = 'QMEventTextParsing/Classes/**/*'
+  s.public_header_files = 'QMEventTextParsing/Classes/**/*.h'
+  s.frameworks = 'Foundation'
+  s.dependency 'QMGeocoder', '~> 1.0'
+  s.dependency 'CDBKit', '~> 1.4'
 end

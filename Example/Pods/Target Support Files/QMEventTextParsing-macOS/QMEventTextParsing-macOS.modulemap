@@ -1,0 +1,6 @@
+framework module QMEventTextParsing {
+  umbrella header "QMEventTextParsing-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

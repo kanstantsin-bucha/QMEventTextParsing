@@ -1,0 +1,48 @@
+PODS:
+  - CDBKit (1.4.3):
+    - CDBKit/Array (= 1.4.3)
+    - CDBKit/Core (= 1.4.3)
+    - CDBKit/Localize (= 1.4.3)
+    - CDBKit/UI (= 1.4.3)
+  - CDBKit/Array (1.4.3)
+  - CDBKit/Core (1.4.3)
+  - CDBKit/Localize (1.4.3)
+  - CDBKit/UI (1.4.3)
+  - LMGeocoderUniversal (1.2.1)
+  - LocationInfo (1.0.3):
+    - LocationInfo/Initial (= 1.0.3)
+  - LocationInfo/AppleGeocoder (1.0.3):
+    - LocationInfo/Initial
+  - LocationInfo/Core (1.0.3)
+  - LocationInfo/Initial (1.0.3):
+    - LocationInfo/Core
+  - LocationInfo/LMGeocoder (1.0.3):
+    - LMGeocoderUniversal
+    - LocationInfo/AppleGeocoder
+    - LocationInfo/Initial
+  - QMEventTextParsing (1.0.1):
+    - CDBKit (~> 1.4)
+    - QMGeocoder (~> 1.0)
+  - QMGeocoder (1.0.1):
+    - LMGeocoderUniversal (~> 1.2)
+    - LocationInfo (~> 1.0)
+    - LocationInfo/AppleGeocoder (~> 1.0)
+    - LocationInfo/LMGeocoder (~> 1.0)
+
+DEPENDENCIES:
+  - QMEventTextParsing (from `../`)
+
+EXTERNAL SOURCES:
+  QMEventTextParsing:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CDBKit: aeb16954308b9a39c07bf1deaf32dc64074f0be2
+  LMGeocoderUniversal: a48427d9d6a9fc74f33cbf9b15303c7b1015b549
+  LocationInfo: 1cb7da8c280403459cbb958a9f93dee454679c4f
+  QMEventTextParsing: 0a09f491ae911800e65292f56e7cedc608f3c3e4
+  QMGeocoder: 82b0687cec11f88b7ebabfd6bef2f94f2a6c93e2
+
+PODFILE CHECKSUM: 035e3fc46a93832a515c5284980f30928a2497c0
+
+COCOAPODS: 1.4.0

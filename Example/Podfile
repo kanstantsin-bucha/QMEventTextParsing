@@ -1,11 +1,18 @@
 use_frameworks!
 
+
+target 'QMEventTextParser-Mac-Example' do
+    platform :osx, 10.11
+    pod 'QMEventTextParsing', :path => '../'
+
+end
+
 target 'QMEventTextParsing_Example' do
+  platform :ios, 10.0
   pod 'QMEventTextParsing', :path => '../'
 
   target 'QMEventTextParsing_Tests' do
     inherit! :search_paths
 
-    
   end
 end

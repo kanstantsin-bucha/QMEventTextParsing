@@ -1,0 +1,6 @@
+framework module Pods_QMEventTextParser_Mac_Example {
+  umbrella header "Pods-QMEventTextParser-Mac-Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

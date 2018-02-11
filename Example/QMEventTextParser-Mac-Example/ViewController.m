@@ -1,24 +1,25 @@
 //
-//  QMViewController.m
-//  QMEventTextParsing
+//  ViewController.m
+//  QMEventTextParser-Mac-Example
 //
-//  Created by truebucha on 02/11/2018.
-//  Copyright (c) 2018 truebucha. All rights reserved.
+//  Created by Kanstantsin Bucha on 2/11/18.
+//  Copyright © 2018 truebucha. All rights reserved.
 //
 
-#import "QMViewController.h"
+#import "ViewController.h"
 #import <QMEventTextParsing/QMEventTextParsing.h>
 
 
-@interface QMViewController ()
+@interface ViewController ()
 
 @property (strong, nonatomic) id<QMEventParserInterface> parser;
 
 @end
 
-@implementation QMViewController
+@implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
@@ -43,16 +44,15 @@
     
     NSLog(@"parser %@", self.parser);
     
-    [self.parser parseText: @"I and my brother in New York in March 17 1978"
+//    NSString * text =  @"I and my brother in New York in March 17 1978";
+//    NSString * text =  @"I and Mark in New York in March 17 1978";
+    NSString * text =  @"Mike and Bill in New York in March 17 1978";
+//    NSString * text =  @"I and my brother in New York in March 17 1978";
+    
+    [self.parser parseText: text
             withCompletion: ^(QMParserResult * _Nullable result, NSError * _Nullable error) {
         NSLog(@"result %@", result);
     }];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
