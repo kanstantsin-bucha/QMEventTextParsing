@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QMEventTextParsing_Example' do
+  pod 'QMEventTextParsing', :path => '../'
+
+  target 'QMEventTextParsing_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
