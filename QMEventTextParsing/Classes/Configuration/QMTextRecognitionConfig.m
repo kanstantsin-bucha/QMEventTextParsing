@@ -125,7 +125,10 @@
         return nil;
     }
     
-    NSRange range = [language localizedStandardRangeOfString: @"_"];
+    NSRange range = [language rangeOfString: @"_"
+                                    options: NSCaseInsensitiveSearch
+                                           | NSDiacriticInsensitiveSearch
+                                           | NSWidthInsensitiveSearch];
     NSInteger index = range.location;
     if (index == NSNotFound) {
         index = language.length - 1;

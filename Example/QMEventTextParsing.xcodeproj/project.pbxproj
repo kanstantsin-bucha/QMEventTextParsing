@@ -29,7 +29,6 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8B78390B54B49DC100BDF08C /* Pods_QMEventTextParser_Mac_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1D90B52ABFE3E661DC817D /* Pods_QMEventTextParser_Mac_Example.framework */; };
-		CD2C4BAB416D8D58AB0F5BE5 /* Pods_QMEventTextParsing_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4B3AAF04516228097E9FA /* Pods_QMEventTextParsing_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,6 @@
 		1FFF4C460EA1D2805BA92160 /* Pods-QMEventTextParsing_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMEventTextParsing_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QMEventTextParsing_Example/Pods-QMEventTextParsing_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2863B31E8265B93B9566512E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2CF34FA7952A35EC3F31014D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		45CDAFAB235EA73DF9D9EC1A /* Pods-QMEventTextParsing_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMEventTextParsing_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QMEventTextParsing_Tests/Pods-QMEventTextParsing_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QMEventTextParsing_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMEventTextParsing_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -83,7 +81,6 @@
 		81D4B3AAF04516228097E9FA /* Pods_QMEventTextParsing_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMEventTextParsing_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E6DFB5B14ADFA0B5B3BD7AB /* Pods-QMEventTextParser-Mac-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMEventTextParser-Mac-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QMEventTextParser-Mac-Example/Pods-QMEventTextParser-Mac-Example.release.xcconfig"; sourceTree = "<group>"; };
-		9FC4746F486DDA12A9E351C0 /* Pods-QMEventTextParsing_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMEventTextParsing_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QMEventTextParsing_Tests/Pods-QMEventTextParsing_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0C3E9DFE984D25750C6ACCB /* Pods-QMEventTextParsing_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMEventTextParsing_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QMEventTextParsing_Example/Pods-QMEventTextParsing_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EC1D90B52ABFE3E661DC817D /* Pods_QMEventTextParser_Mac_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMEventTextParser_Mac_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,7 +112,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				CD2C4BAB416D8D58AB0F5BE5 /* Pods_QMEventTextParsing_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,8 +232,6 @@
 			children = (
 				1FFF4C460EA1D2805BA92160 /* Pods-QMEventTextParsing_Example.debug.xcconfig */,
 				A0C3E9DFE984D25750C6ACCB /* Pods-QMEventTextParsing_Example.release.xcconfig */,
-				9FC4746F486DDA12A9E351C0 /* Pods-QMEventTextParsing_Tests.debug.xcconfig */,
-				45CDAFAB235EA73DF9D9EC1A /* Pods-QMEventTextParsing_Tests.release.xcconfig */,
 				0A508343CF3963D2D3F74B87 /* Pods-QMEventTextParser-Mac-Example.debug.xcconfig */,
 				8E6DFB5B14ADFA0B5B3BD7AB /* Pods-QMEventTextParser-Mac-Example.release.xcconfig */,
 			);
@@ -291,12 +285,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "QMEventTextParsing_Tests" */;
 			buildPhases = (
-				F5E692FB78536F01917D7C4E /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				5D4458C4DF5CE0A1762609B3 /* [CP] Embed Pods Frameworks */,
-				5CA926773A6B218E5D9C7C59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -421,36 +412,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMEventTextParser-Mac-Example/Pods-QMEventTextParser-Mac-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5CA926773A6B218E5D9C7C59 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMEventTextParsing_Tests/Pods-QMEventTextParsing_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D4458C4DF5CE0A1762609B3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMEventTextParsing_Tests/Pods-QMEventTextParsing_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7BA0535E6D363B37BEA7D202 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -526,24 +487,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMEventTextParsing_Example/Pods-QMEventTextParsing_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F5E692FB78536F01917D7C4E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QMEventTextParsing_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -653,7 +596,6 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "QMEventTextParser-Mac-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.truebucha.QMEventTextParser-Mac-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -692,7 +634,6 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "QMEventTextParser-Mac-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.truebucha.QMEventTextParser-Mac-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -734,7 +675,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -768,7 +709,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -807,7 +748,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FC4746F486DDA12A9E351C0 /* Pods-QMEventTextParsing_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -831,7 +771,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45CDAFAB235EA73DF9D9EC1A /* Pods-QMEventTextParsing_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

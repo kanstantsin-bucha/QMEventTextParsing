@@ -19,12 +19,11 @@
 		0C33B4125B60BD198E7BF2086949A187 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C11C074695EBBB0A5D344F1F19C5B /* CoreLocation.framework */; };
 		0D66C87A56F8A8F29E07C90DB2E8DF60 /* QMLogicDateDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0EE90A5FA7C8CABBEF6D0E62A6295 /* QMLogicDateDetector.m */; };
 		0DC1EBB61EB71F032F2500EE52A4F951 /* QMConfigParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EE7017B01287E60D4EE9661AC31714 /* QMConfigParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E45873225936329AB76A49CF1464B00 /* Pods-QMEventTextParser-Mac-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75BF9C2D33DC2D00CC34355BAB05DDCB /* Pods-QMEventTextParser-Mac-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E45873225936329AB76A49CF1464B00 /* Pods-QMEventTextParser-Mac-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D203800C1AA085B62406F26C8573F0 /* Pods-QMEventTextParser-Mac-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EDC542FAE1935794367C9770555CC23 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A590FFE840784BE7C584031F67741AC1 /* Cocoa.framework */; };
 		13041ABFB261CB6991C17C11B234B831 /* QMGeocoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A1A77853D962C08C874CC95D09AA23 /* QMGeocoder.framework */; };
 		13DCE55E84C4747D4F8C7E4EF88CF2C1 /* QMPlaceDataDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 768B7FF0A5F5E7519E65E16835201C19 /* QMPlaceDataDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		145D88995287AFC9A9A2CFFDCB32E2F1 /* CDBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C032A17045C3A5C1FBF199324EF693F1 /* CDBKit.m */; };
-		14B72B9C456FD17DDD6A165A14AEF7D5 /* Pods-QMEventTextParsing_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF5B7E9A4A53799DCA2602D038D2996 /* Pods-QMEventTextParsing_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1744C75ED175C009C452CC678200F3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E9DA9D8FC9890DAB8B8C9E43421987 /* Foundation.framework */; };
 		18182F869F86DBF8C2DD09E01861D4B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D70DC796DC2F505407F89381F9638C /* Foundation.framework */; };
 		186762C359EF2F67988F036A67BD0363 /* QMConfigParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EE7017B01287E60D4EE9661AC31714 /* QMConfigParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -72,7 +71,6 @@
 		54BBB878982E65B0796F21A2378F7271 /* QMLogicDateDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF6B1A5D07BF647989BB65ED5D000CB /* QMLogicDateDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57CC459D373466E0946971BDA3FB1192 /* LMGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 434C8F903D833EE778DAD885D086E15C /* LMGeocoder.m */; };
 		585835544A42BFEE80CB0829ACB9E3CA /* QMPeopleDataDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C56CFE2BD16B9AF4EAAE3AF0D48ACC7 /* QMPeopleDataDetector.m */; };
-		59B03AC58F5C999028320BDB61C6EBD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E9DA9D8FC9890DAB8B8C9E43421987 /* Foundation.framework */; };
 		5A366C81BC3A2480C7B59DDA1BD89631 /* CDBKitUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F53D38025EDE39A2E9689E74F9897C8 /* CDBKitUI.m */; };
 		5BA8E82E00D3109B1B9020ABF3072632 /* QMLocationInfoAppleConvertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 300D2C21455CF3BE59C7CBAD2CDDDD30 /* QMLocationInfoAppleConvertion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BF15347EB18A78BC40CB996F8A258C4 /* CDBKit-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B0C5B0130565C9DE83E01D349AEF025 /* CDBKit-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -95,7 +93,6 @@
 		69FD7590912063793318868EFB27FC38 /* CDBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9228584972DB3F90EB406DFEC4DAFA /* CDBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A4611701E4D2495450BF7D3F7C92652 /* QMPlaceDataDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 768B7FF0A5F5E7519E65E16835201C19 /* QMPlaceDataDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A66D617F16CE33A09E18746C68ED79C /* LMGeocoderUniversal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99657C7661799006DDDF94688C02F7A1 /* LMGeocoderUniversal.framework */; };
-		6C23259BE30C95E894D2605FA9083BF4 /* Pods-QMEventTextParsing_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF521D652710626841EDC918DB26F3E /* Pods-QMEventTextParsing_Tests-dummy.m */; };
 		6CE250C061F5066318CA2DE609303803 /* QMParserResult+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFD9070D3ACDC13FC4ACAD9A950CE76 /* QMParserResult+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D3E3A47BA80F244610F239C2A3F8A4F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EA1634CB2439BB61C3FFDC38EA3DF1 /* CoreLocation.framework */; };
 		6FFD03B44116511109372BEB10EE86EF /* LMGeocoderUniversal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99657C7661799006DDDF94688C02F7A1 /* LMGeocoderUniversal.framework */; };
@@ -114,7 +111,7 @@
 		7B4F0F4765B1E3563851D683F43BA022 /* QMEventParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D2053B11C4D21E72EF56BCB0F01445 /* QMEventParser.m */; };
 		7F454CA67FDD6C84D04DE5DE18A1F508 /* CDBKitLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B54FF2AB0429E1AA5EEBA602842CE7 /* CDBKitLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8152A572B1B03835ABA15D30C80E44ED /* QMDetector+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA944B3859B4E9BA74DF0D9B4FF460D /* QMDetector+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		838E9D682AD687D7865AFCFBFF781B99 /* Pods-QMEventTextParsing_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 591591A15EACE8C5A7EBCAECCDBE8CD6 /* Pods-QMEventTextParsing_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		838E9D682AD687D7865AFCFBFF781B99 /* Pods-QMEventTextParsing_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 957E66CAD90DF1C678CE692D5052C207 /* Pods-QMEventTextParsing_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		848AECCFF674F7BC12024D9CFA51D98D /* CDBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9228584972DB3F90EB406DFEC4DAFA /* CDBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8667296375B1354E67C1B133C72E0202 /* QMLinguisticParser.h in Headers */ = {isa = PBXBuildFile; fileRef = E69BD52F2F699FE13E72D57A23FFA28B /* QMLinguisticParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		880D300F86F4B35E889DC02AE1E4EBE3 /* QMLinguisticParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 298817AF6104B8633AF5485138A5BF0D /* QMLinguisticParser.m */; };
@@ -140,7 +137,7 @@
 		A1C71162CA22F7E1372B4B120CCC3D3C /* CDBKitArray.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF0D6578CD7C5A2AC4ADB32FF9085FC /* CDBKitArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2119407AB2E3DA0E806C35FEDA26A4E /* CDBKitCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECAFBBB5AF88D05617B8903B1068EAA /* CDBKitCore.m */; };
 		A41B581E344F8D9FAB46E7C8EED88C9D /* QMSemanticChunk.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD9FF4BCEFCE1A1972C5EBC03F08AE4 /* QMSemanticChunk.m */; };
-		A61F6BDEEE6ACBA920B9998E6A610CCE /* Pods-QMEventTextParsing_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C58B9DDD4E980129E0C16F36AF530C /* Pods-QMEventTextParsing_Example-dummy.m */; };
+		A61F6BDEEE6ACBA920B9998E6A610CCE /* Pods-QMEventTextParsing_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3180D9559FF54C707547235ADB2436 /* Pods-QMEventTextParsing_Example-dummy.m */; };
 		A7930B54097CFA4F0257CDF39B8F0CE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E9DA9D8FC9890DAB8B8C9E43421987 /* Foundation.framework */; };
 		A81BC07B6256515F6170A3465D0BAE0B /* CDBKitLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF2C8E2238A694DD994C3E2116D0843 /* CDBKitLocalize.m */; };
 		A868C58383B2E6E8936791C0C64068DF /* QMLogicPlaceDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A2FDAF13D4396A979E9B988785A577 /* QMLogicPlaceDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -167,7 +164,7 @@
 		BC5B1F2177D52FD2FDBDA7C28D83FD50 /* LMGeocoderUniversal-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDE6CA4FB9F3949D110103306424D77 /* LMGeocoderUniversal-iOS-dummy.m */; };
 		BF085DFA837D7194B0C3FC21A060C827 /* QMParserResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 225A477E24B3FE453F3AD13D9095901C /* QMParserResult.m */; };
 		C0D36F9703C4388CF279D1344EC1E1B5 /* LocationInfo-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D33FA7F1B54C1C0179132C94C106726 /* LocationInfo-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C14D184D9C1764EAD56E25EDA618530A /* Pods-QMEventTextParser-Mac-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2523CDBB4419D99920AD2254B9383666 /* Pods-QMEventTextParser-Mac-Example-dummy.m */; };
+		C14D184D9C1764EAD56E25EDA618530A /* Pods-QMEventTextParser-Mac-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE627B0E5538C9DEF902E17CD550DF6 /* Pods-QMEventTextParser-Mac-Example-dummy.m */; };
 		C1E927DF4F45D91F7189DBFD6BCBEADF /* QMLinguisticToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B518E36317443636A26081973FB71C2 /* QMLinguisticToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4079BF0D2FF9A587AF2437B32355091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E9DA9D8FC9890DAB8B8C9E43421987 /* Foundation.framework */; };
 		C479D914AC86AFA268FD2683F7704056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D70DC796DC2F505407F89381F9638C /* Foundation.framework */; };
@@ -399,6 +396,7 @@
 /* Begin PBXFileReference section */
 		002251870C394DA3AA99D86D1FE1F3BF /* QMGeocoder-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "QMGeocoder-iOS.modulemap"; sourceTree = "<group>"; };
 		00EAAE22630603413D73B12DCD7396B3 /* QMLinguisticToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMLinguisticToken.m; sourceTree = "<group>"; };
+		02AAAE5F7A60C86AEF59343B5531A443 /* CDBKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDBKit.framework; path = "CDBKit-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B1B1496446C5081F55F70FCB2FCC3B /* CDBKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CDBKit-iOS.modulemap"; sourceTree = "<group>"; };
 		04A81DFD3ED6ADFFF43090F2D019BB00 /* QMSemantic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMSemantic.h; sourceTree = "<group>"; };
 		04E8AC9F92B496F51CF69F3A30D7FBDF /* QMTextRecognitionConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMTextRecognitionConfig.h; sourceTree = "<group>"; };
@@ -408,12 +406,14 @@
 		07A75A91233A81041687F189F819A350 /* LMGeocoderUniversal-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LMGeocoderUniversal-macOS-prefix.pch"; path = "../LMGeocoderUniversal-macOS/LMGeocoderUniversal-macOS-prefix.pch"; sourceTree = "<group>"; };
 		0A4F29D7E949A2FB81193F6F09C2ECD0 /* CDBKit-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CDBKit-iOS.xcconfig"; sourceTree = "<group>"; };
 		0BB8FC1C55EDF2A7D0683CFA2E92D6E1 /* QMLocationInfoLuongConvertion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMLocationInfoLuongConvertion.m; path = LocationInfo/Classes/LMGeocoder/QMLocationInfoLuongConvertion.m; sourceTree = "<group>"; };
+		0C71875007856BFA89FD26E26C7A9071 /* Pods-QMEventTextParsing_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMEventTextParsing_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0DEC0C0AE0602D9A9E39201C8AD6D721 /* CDBKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDBKit-iOS-prefix.pch"; sourceTree = "<group>"; };
+		0EC4025FCBE5BCFDA8D52919AF468878 /* Pods-QMEventTextParser-Mac-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMEventTextParser-Mac-Example-resources.sh"; sourceTree = "<group>"; };
 		0FD0359DFBA0F6CD45914AE82603BD9E /* QMLocationInfoAppleConvertion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMLocationInfoAppleConvertion.m; path = LocationInfo/Classes/AppleGeocoder/QMLocationInfoAppleConvertion.m; sourceTree = "<group>"; };
+		103C81599996FD7319E46DA5372881B2 /* Pods_QMEventTextParser_Mac_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QMEventTextParser_Mac_Example.framework; path = "Pods-QMEventTextParser-Mac-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		107391F0D3C7CFA5D5A243A58EFE830C /* LocationInfo-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LocationInfo-macOS.xcconfig"; path = "../LocationInfo-macOS/LocationInfo-macOS.xcconfig"; sourceTree = "<group>"; };
 		107AD78D9B405DECEAB6D58283D88ADE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../QMEventTextParsing-macOS/Info.plist"; sourceTree = "<group>"; };
 		1089F77EF27A66578616BE164A7C29C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15018E0870125B68F8F141E11B40AAF6 /* Pods-QMEventTextParsing_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMEventTextParsing_Tests.modulemap"; sourceTree = "<group>"; };
 		18DEB6439919E5CED334F8804ED8670A /* QMSemanticPersonMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMSemanticPersonMatcher.m; sourceTree = "<group>"; };
 		1BAA70DEDA0AFA94E222E5086D75A7AA /* LMGeocoderUniversal-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LMGeocoderUniversal-macOS.xcconfig"; path = "../LMGeocoderUniversal-macOS/LMGeocoderUniversal-macOS.xcconfig"; sourceTree = "<group>"; };
 		1BDBE285746F41FCD11504AB3A9DDFC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../QMGeocoder-macOS/Info.plist"; sourceTree = "<group>"; };
@@ -421,14 +421,11 @@
 		225A477E24B3FE453F3AD13D9095901C /* QMParserResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMParserResult.m; sourceTree = "<group>"; };
 		2306C053E3D404DC5660C4790358C5AD /* QMEventTextParsing-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMEventTextParsing-iOS-umbrella.h"; sourceTree = "<group>"; };
 		23FD74755F7169A7954A526F35ABA1C0 /* LMGeocoderUniversal-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LMGeocoderUniversal-macOS-dummy.m"; path = "../LMGeocoderUniversal-macOS/LMGeocoderUniversal-macOS-dummy.m"; sourceTree = "<group>"; };
-		24D74246F895C5029A06FBE7874FD5BC /* Pods-QMEventTextParsing_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMEventTextParsing_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2523CDBB4419D99920AD2254B9383666 /* Pods-QMEventTextParser-Mac-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMEventTextParser-Mac-Example-dummy.m"; sourceTree = "<group>"; };
 		298817AF6104B8633AF5485138A5BF0D /* QMLinguisticParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMLinguisticParser.m; sourceTree = "<group>"; };
 		29D04DA3FA5F30C40284EEAEF6793718 /* QMGeocoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMGeocoder.h; path = QMGeocoder/Classes/QMGeocoder.h; sourceTree = "<group>"; };
 		2B80C8D98612D9FA40088A911C62AE28 /* QMSemanticPersonMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMSemanticPersonMatcher.h; sourceTree = "<group>"; };
 		2F021C4D379F7149159095750A5C1984 /* LMGeocoderUniversal-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMGeocoderUniversal-iOS-prefix.pch"; sourceTree = "<group>"; };
 		2F53D38025EDE39A2E9689E74F9897C8 /* CDBKitUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDBKitUI.m; path = Pod/Classes/UI/CDBKitUI.m; sourceTree = "<group>"; };
-		2F5A5C326D06EA219BCFBC0A6D29EED6 /* LMGeocoderUniversal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMGeocoderUniversal.framework; path = "LMGeocoderUniversal-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F60E43BA082D397B61EADBF171C8DEE /* LMGeocoderUniversal-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "LMGeocoderUniversal-macOS.modulemap"; path = "../LMGeocoderUniversal-macOS/LMGeocoderUniversal-macOS.modulemap"; sourceTree = "<group>"; };
 		300D2C21455CF3BE59C7CBAD2CDDDD30 /* QMLocationInfoAppleConvertion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMLocationInfoAppleConvertion.h; path = LocationInfo/Classes/AppleGeocoder/QMLocationInfoAppleConvertion.h; sourceTree = "<group>"; };
 		3013053331F16C9C205730EE5BF00C97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -436,11 +433,11 @@
 		3113B872E92FBD386CCC0FDA72244E10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		31701509BA266818054ECA3A636979AB /* QMSemanticLocationMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMSemanticLocationMatcher.h; sourceTree = "<group>"; };
 		38A2FDAF13D4396A979E9B988785A577 /* QMLogicPlaceDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMLogicPlaceDetector.h; sourceTree = "<group>"; };
-		3AF521D652710626841EDC918DB26F3E /* Pods-QMEventTextParsing_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMEventTextParsing_Tests-dummy.m"; sourceTree = "<group>"; };
 		3B4F68B359DDF949D5D1A1714C854E49 /* QMEventTextParsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMEventTextParsing.h; path = QMEventTextParsing/Classes/QMEventTextParsing.h; sourceTree = "<group>"; };
 		3B518E36317443636A26081973FB71C2 /* QMLinguisticToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMLinguisticToken.h; sourceTree = "<group>"; };
 		3D33FA7F1B54C1C0179132C94C106726 /* LocationInfo-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LocationInfo-macOS-umbrella.h"; path = "../LocationInfo-macOS/LocationInfo-macOS-umbrella.h"; sourceTree = "<group>"; };
 		3F57CF7DACEA125A7B50156A256286AA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		40476E1BE3CC624AF0F621CC70DE8B7C /* CDBKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDBKit.framework; path = "CDBKit-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40764D0A94C79D6D8D95D944774DC201 /* CDBKit-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "CDBKit-macOS.modulemap"; path = "../CDBKit-macOS/CDBKit-macOS.modulemap"; sourceTree = "<group>"; };
 		434C8F903D833EE778DAD885D086E15C /* LMGeocoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMGeocoder.m; path = LMGeocoderUniversal/Classes/LMGeocoder.m; sourceTree = "<group>"; };
 		460C68998EDE220BB76EA9AC4039AB41 /* QMDateDataDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMDateDataDetector.m; sourceTree = "<group>"; };
@@ -452,18 +449,19 @@
 		4B0BE33200D1F4B21BCFC29D7C43A445 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B14D57AE96AC60DEFF8FABF67D2682D /* QMEventParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMEventParser.h; path = QMEventTextParsing/Classes/QMEventParser.h; sourceTree = "<group>"; };
 		4C03125C10510C5114D9AD66764BABB9 /* QMTextRecognitionConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMTextRecognitionConfig.m; sourceTree = "<group>"; };
-		4C5C4B58A9AD1D1842F3A6A7E4A63149 /* Pods-QMEventTextParsing_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMEventTextParsing_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4D0C11C074695EBBB0A5D344F1F19C5B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		4E7E622B935767361337C9E2696AD6CC /* QMEventTextParsing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMEventTextParsing.framework; path = "QMEventTextParsing-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		500F369C0346E321CBD9928DF634B1D8 /* QMLinguisticTagger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMLinguisticTagger.h; sourceTree = "<group>"; };
 		54D290BD5D62642333E8995D1ED691FA /* QMEventTextParsing-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QMEventTextParsing-macOS-umbrella.h"; path = "../QMEventTextParsing-macOS/QMEventTextParsing-macOS-umbrella.h"; sourceTree = "<group>"; };
-		591591A15EACE8C5A7EBCAECCDBE8CD6 /* Pods-QMEventTextParsing_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMEventTextParsing_Example-umbrella.h"; sourceTree = "<group>"; };
-		5BF2522CAC29AC397FCD5F51E24EE6C9 /* QMEventTextParsing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMEventTextParsing.framework; path = "QMEventTextParsing-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C2B136AF712F50B218CCCB6073B7AC4 /* Pods-QMEventTextParsing_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMEventTextParsing_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B3180D9559FF54C707547235ADB2436 /* Pods-QMEventTextParsing_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMEventTextParsing_Example-dummy.m"; sourceTree = "<group>"; };
 		5ECAFBBB5AF88D05617B8903B1068EAA /* CDBKitCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDBKitCore.m; path = Pod/Classes/Core/CDBKitCore.m; sourceTree = "<group>"; };
+		5F3593B54A055EFDA96A16DE4AE63D7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609D2603FE3F14B5662299FB17D979EF /* Pods-QMEventTextParser-Mac-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMEventTextParser-Mac-Example.modulemap"; sourceTree = "<group>"; };
+		612D203F39EF7A155D476CF1DC03D76A /* Pods-QMEventTextParsing_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMEventTextParsing_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6264B5130CBF05C8B125909B35F46780 /* QMEventTextParsing-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "QMEventTextParsing-iOS.xcconfig"; sourceTree = "<group>"; };
-		658199012196304E21EF160869877F11 /* Pods_QMEventTextParser_Mac_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QMEventTextParser_Mac_Example.framework; path = "Pods-QMEventTextParser-Mac-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C9519943657168B47345923F500A84 /* Pods-QMEventTextParsing_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMEventTextParsing_Example-resources.sh"; sourceTree = "<group>"; };
+		68DFED980E7FD914ADE1F8A391566C50 /* QMEventTextParsing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMEventTextParsing.framework; path = "QMEventTextParsing-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E273E5B57BE8B358F5E7912AE84443 /* LMAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMAddress.h; path = LMGeocoderUniversal/Classes/LMAddress.h; sourceTree = "<group>"; };
-		6BF5B7E9A4A53799DCA2602D038D2996 /* Pods-QMEventTextParsing_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMEventTextParsing_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6BFFB6AC24E2F1B931662CC2BDF3BFC6 /* QMLogicPlaceDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMLogicPlaceDetector.m; sourceTree = "<group>"; };
 		6D60F35BDB0513DFAB7B7CA556AB6837 /* QMPlaceDataDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMPlaceDataDetector.m; sourceTree = "<group>"; };
 		6DE52761CF060314F4F2C29511FCEE9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -475,49 +473,42 @@
 		72F809661D319496B79D27DD4FEFB92C /* QMGeocoder-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMGeocoder-iOS-umbrella.h"; sourceTree = "<group>"; };
 		73E90F660DF445A5A7FC74C2DF15591F /* QMDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMDetector.m; sourceTree = "<group>"; };
 		75A1A77853D962C08C874CC95D09AA23 /* QMGeocoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QMGeocoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		75BF9C2D33DC2D00CC34355BAB05DDCB /* Pods-QMEventTextParser-Mac-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMEventTextParser-Mac-Example-umbrella.h"; sourceTree = "<group>"; };
 		75EA1634CB2439BB61C3FFDC38EA3DF1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		7605C49B67CFC94A029337CA67902C77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7608B2ED6432D525AE6BA8EDE5A3C70A /* LMGeocoderUniversal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMGeocoderUniversal.framework; path = "LMGeocoderUniversal-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		768B7FF0A5F5E7519E65E16835201C19 /* QMPlaceDataDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMPlaceDataDetector.h; sourceTree = "<group>"; };
 		775540353DD93B3152196F406E37523C /* QMConfigParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMConfigParser.m; sourceTree = "<group>"; };
 		7889DCDB50067836C9FA6EAB7B810A43 /* QMPeopleEntitled.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMPeopleEntitled.h; sourceTree = "<group>"; };
+		78D203800C1AA085B62406F26C8573F0 /* Pods-QMEventTextParser-Mac-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMEventTextParser-Mac-Example-umbrella.h"; sourceTree = "<group>"; };
+		78EC12699021A7519D66C33C3DF21F7E /* Pods-QMEventTextParser-Mac-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMEventTextParser-Mac-Example.release.xcconfig"; sourceTree = "<group>"; };
 		794EF059225DDA888CBC14AE340E579F /* CDBKit-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDBKit-macOS-prefix.pch"; path = "../CDBKit-macOS/CDBKit-macOS-prefix.pch"; sourceTree = "<group>"; };
 		7D17618297F22B30D0E8D576A4361FED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../LocationInfo-macOS/Info.plist"; sourceTree = "<group>"; };
 		7D1FCF964A9CA44AFD8883DDA79B5388 /* QMGeocoder-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QMGeocoder-macOS-umbrella.h"; path = "../QMGeocoder-macOS/QMGeocoder-macOS-umbrella.h"; sourceTree = "<group>"; };
 		7DBDB47464289042A9BBFBECDE239BB9 /* CDBKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDBKit-iOS-dummy.m"; sourceTree = "<group>"; };
 		80E9BBD9B993281E71203602B0DF06A0 /* QMParserResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMParserResult.h; sourceTree = "<group>"; };
 		8122BB5FF334519D5081888F958A5BE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../LMGeocoderUniversal-macOS/Info.plist"; sourceTree = "<group>"; };
-		826DC023A8E477DCFA117F2004154162 /* Pods-QMEventTextParsing_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMEventTextParsing_Example-frameworks.sh"; sourceTree = "<group>"; };
-		86DDF069EC9FF29EE42A81ECFFAE76E5 /* Pods-QMEventTextParsing_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMEventTextParsing_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8897DEB36E28F015000ACA4D9F1E3350 /* QMSemanticLocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMSemanticLocationMatcher.m; sourceTree = "<group>"; };
 		889D7684C76C6A18A28077C9D30C4F07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8AA944B3859B4E9BA74DF0D9B4FF460D /* QMDetector+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMDetector+Private.h"; sourceTree = "<group>"; };
-		8D0F11136D2D43EB3A52DD87FA328F6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DC195FBCF33543D5C9A014D41E7A362 /* QMGeocoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMGeocoder.framework; path = "QMGeocoder-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDE6CA4FB9F3949D110103306424D77 /* LMGeocoderUniversal-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LMGeocoderUniversal-iOS-dummy.m"; sourceTree = "<group>"; };
 		8F026BE9D0892A55CFB9BD0C6FE1D561 /* LocationInfo-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationInfo-iOS-umbrella.h"; sourceTree = "<group>"; };
 		8FFF70158C3F6C26B9A20B3FC9E04FE2 /* QMDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMDetector.h; sourceTree = "<group>"; };
-		9010F5473F2751F97F41ECDDDA2B5BF9 /* CDBKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDBKit.framework; path = "CDBKit-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		940EA1DB5D5F5E5D35776987FE35D820 /* QMGeocoder-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QMGeocoder-iOS-dummy.m"; sourceTree = "<group>"; };
 		950F65C13F57F2122DFDDE0E1A3CD1BA /* LocationInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocationInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95444FA896354391E1AA7604AA51DC1C /* Pods-QMEventTextParser-Mac-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMEventTextParser-Mac-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		96D921181AA0D7D32294C7F9D51B3AFB /* Pods-QMEventTextParsing_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMEventTextParsing_Example-resources.sh"; sourceTree = "<group>"; };
+		957E66CAD90DF1C678CE692D5052C207 /* Pods-QMEventTextParsing_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMEventTextParsing_Example-umbrella.h"; sourceTree = "<group>"; };
 		99657C7661799006DDDF94688C02F7A1 /* LMGeocoderUniversal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LMGeocoderUniversal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B08FFE075043D77F22C6E843B3D12AB /* QMGeocoder-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QMGeocoder-macOS-dummy.m"; path = "../QMGeocoder-macOS/QMGeocoder-macOS-dummy.m"; sourceTree = "<group>"; };
 		9B0C5B0130565C9DE83E01D349AEF025 /* CDBKit-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDBKit-macOS-umbrella.h"; path = "../CDBKit-macOS/CDBKit-macOS-umbrella.h"; sourceTree = "<group>"; };
-		9BF1688871B1BCA173D683D1A9DEC737 /* Pods-QMEventTextParsing_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMEventTextParsing_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D71463655261F12CCB00BC1E1386923 /* QMDateDataDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMDateDataDetector.h; sourceTree = "<group>"; };
-		9E1A204DC60664C0FE97F5033F58E7CB /* LocationInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocationInfo.framework; path = "LocationInfo-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E652AB3CC03A0EB0E6E8A72397F87AB /* QMEventTextParsing-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "QMEventTextParsing-macOS.modulemap"; path = "../QMEventTextParsing-macOS/QMEventTextParsing-macOS.modulemap"; sourceTree = "<group>"; };
 		9EB0EE90A5FA7C8CABBEF6D0E62A6295 /* QMLogicDateDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMLogicDateDetector.m; sourceTree = "<group>"; };
 		9F4C2AC50F2F618EDBB77C35158EFF29 /* QMGeocoder-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QMGeocoder-macOS-prefix.pch"; path = "../QMGeocoder-macOS/QMGeocoder-macOS-prefix.pch"; sourceTree = "<group>"; };
 		9FFD9070D3ACDC13FC4ACAD9A950CE76 /* QMParserResult+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMParserResult+Private.h"; sourceTree = "<group>"; };
+		A02F268FBF10D5CE45EC1E5181C360EC /* LocationInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocationInfo.framework; path = "LocationInfo-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B843B44D9321564D02018E6DEAD8AE /* LMGeocoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LMGeocoder.h; path = LMGeocoderUniversal/Classes/LMGeocoder.h; sourceTree = "<group>"; };
 		A590FFE840784BE7C584031F67741AC1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		A5F4046E74858058B8ED4746015A234C /* QMEventTextParsing-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "QMEventTextParsing-macOS.xcconfig"; path = "../QMEventTextParsing-macOS/QMEventTextParsing-macOS.xcconfig"; sourceTree = "<group>"; };
 		A6F86743CA148737B4A859DBAAA99ECC /* QMWaterfallParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMWaterfallParser.h; sourceTree = "<group>"; };
+		A78AFACB030524D32E0003A0DD49307C /* Pods-QMEventTextParsing_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMEventTextParsing_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A9E7CF41810F2E21E92F53BB248B89CC /* QMLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMLocation.h; path = LocationInfo/Classes/Core/QMLocation.h; sourceTree = "<group>"; };
 		AA59A951AF3771A7AEBE5FB27FDA92FF /* LMGeocoderUniversal-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LMGeocoderUniversal-iOS.xcconfig"; sourceTree = "<group>"; };
 		AADFD1C729AD785E5E84933746E6E597 /* LocationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocationInfo.h; path = LocationInfo/Classes/LocationInfo.h; sourceTree = "<group>"; };
@@ -525,31 +516,27 @@
 		AE2B31746C44B20E16BA488C624A66A3 /* QMDateParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMDateParser.m; sourceTree = "<group>"; };
 		B147DA6C52BE6C82F12CF9037DB4B6E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B286583B64B0C84E2DF9D13A3FB08B2F /* QMEventTextParsing-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "QMEventTextParsing-iOS.modulemap"; sourceTree = "<group>"; };
-		B2E4CA20E90C808E97416128288A842E /* QMEventTextParsing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMEventTextParsing.framework; path = "QMEventTextParsing-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A491512E55CBDC51B11BCAAB8A1131 /* CDBKitCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDBKitCore.h; path = Pod/Classes/Core/CDBKitCore.h; sourceTree = "<group>"; };
-		B6A779438308BC2CEF7DF479157964B4 /* Pods-QMEventTextParsing_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMEventTextParsing_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B761562A82A547F4D045F459D3741211 /* Pods-QMEventTextParsing_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMEventTextParsing_Tests-resources.sh"; sourceTree = "<group>"; };
-		B7C58B9DDD4E980129E0C16F36AF530C /* Pods-QMEventTextParsing_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMEventTextParsing_Example-dummy.m"; sourceTree = "<group>"; };
 		BAF1E7B9629FE4678676398FFBBBFD52 /* LMGeocoderUniversal-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LMGeocoderUniversal-iOS.modulemap"; sourceTree = "<group>"; };
-		BDB6BD822DC65CD8F899164FD4395364 /* Pods-QMEventTextParser-Mac-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMEventTextParser-Mac-Example.release.xcconfig"; sourceTree = "<group>"; };
+		BDD9732F29C72808E69697D4F274B8C1 /* Pods-QMEventTextParser-Mac-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMEventTextParser-Mac-Example-frameworks.sh"; sourceTree = "<group>"; };
 		BE2AAAF27193D0E974BBF4D0C14E166C /* QMEventTextParsing-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QMEventTextParsing-iOS-dummy.m"; sourceTree = "<group>"; };
+		BFB2A1501F43D6685FB7A30D1B10FDE5 /* LMGeocoderUniversal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMGeocoderUniversal.framework; path = "LMGeocoderUniversal-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C032A17045C3A5C1FBF199324EF693F1 /* CDBKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDBKit.m; path = Pod/Classes/CDBKit.m; sourceTree = "<group>"; };
 		C192FFC4A4E72FE7B368D53EE497B22A /* QMEventTextParsing-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMEventTextParsing-iOS-prefix.pch"; sourceTree = "<group>"; };
+		C3C591D7243DF341695ECC0897C3C348 /* QMGeocoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMGeocoder.framework; path = "QMGeocoder-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51D92374F1CE430F1EC3D5CD7A6749A /* LMAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LMAddress.m; path = LMGeocoderUniversal/Classes/LMAddress.m; sourceTree = "<group>"; };
-		C54E0244BEEFF7140080F13A860D2733 /* Pods-QMEventTextParser-Mac-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMEventTextParser-Mac-Example-resources.sh"; sourceTree = "<group>"; };
 		C655012D3063959C1FE5C3F0F3209472 /* LocationInfo-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LocationInfo-iOS.modulemap"; sourceTree = "<group>"; };
 		C850D3D65617F3B727B314191BB4BBCE /* LocationInfo-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LocationInfo-macOS-prefix.pch"; path = "../LocationInfo-macOS/LocationInfo-macOS-prefix.pch"; sourceTree = "<group>"; };
 		C9005151A4E83FB5A27A17ED8AF0577E /* CDBKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDBKit-iOS-umbrella.h"; sourceTree = "<group>"; };
 		C9C7081D93138D2E747CE92949173E8E /* LocationInfo-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocationInfo-iOS-dummy.m"; sourceTree = "<group>"; };
-		CAA162B3AD82D63319FC11113DA8A0F7 /* Pods-QMEventTextParsing_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMEventTextParsing_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CAEA028B77EFCC05D99B16EA91F2B483 /* Pods-QMEventTextParsing_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMEventTextParsing_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB027D303A16EDBC5411508E6817BB51 /* QMWaterfallParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMWaterfallParser.m; sourceTree = "<group>"; };
-		CB7832A9C3B260B9671CB55A26ECF1FF /* CDBKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDBKit.framework; path = "CDBKit-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB544B8459379C2BE0EE4E498779090 /* QMSemanticDateMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMSemanticDateMatcher.h; sourceTree = "<group>"; };
-		CBF2FC8FCC126C7785BBFFBD23723402 /* Pods_QMEventTextParsing_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QMEventTextParsing_Tests.framework; path = "Pods-QMEventTextParsing_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF0D6578CD7C5A2AC4ADB32FF9085FC /* CDBKitArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDBKitArray.h; path = Pod/Classes/Array/CDBKitArray.h; sourceTree = "<group>"; };
 		CF000AD01E3E959C364A39B76649CC36 /* LocationInfo-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "LocationInfo-macOS.modulemap"; path = "../LocationInfo-macOS/LocationInfo-macOS.modulemap"; sourceTree = "<group>"; };
+		CFE346E93FE2551C5A97A65E97989E78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFF2C8E2238A694DD994C3E2116D0843 /* CDBKitLocalize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDBKitLocalize.m; path = Pod/Classes/Localize/CDBKitLocalize.m; sourceTree = "<group>"; };
-		D11A4A121696FB8CA088BB525927ABF6 /* Pods-QMEventTextParser-Mac-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMEventTextParser-Mac-Example-frameworks.sh"; sourceTree = "<group>"; };
+		D13099D503053FB872B346B95F517E54 /* Pods-QMEventTextParser-Mac-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMEventTextParser-Mac-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D35C9C412F937EC0571F0B5EAA9D17EC /* CDBKit-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CDBKit-macOS-dummy.m"; path = "../CDBKit-macOS/CDBKit-macOS-dummy.m"; sourceTree = "<group>"; };
 		D427B69FAF919640C71E9489485423FF /* QMLinguisticTagger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMLinguisticTagger.m; sourceTree = "<group>"; };
 		D4D70DC796DC2F505407F89381F9638C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -557,39 +544,38 @@
 		D95116A851D1007B9A4A187C07A9FA61 /* QMGeocoder-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "QMGeocoder-iOS.xcconfig"; sourceTree = "<group>"; };
 		DA9228584972DB3F90EB406DFEC4DAFA /* CDBKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDBKit.h; path = Pod/Classes/CDBKit.h; sourceTree = "<group>"; };
 		DAEC4C400084626C561167122C025EB5 /* QMLocationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMLocationInfo.h; path = LocationInfo/Classes/Core/QMLocationInfo.h; sourceTree = "<group>"; };
-		DB41E1CEE2728D8DF054CDB0155AE414 /* Pods-QMEventTextParser-Mac-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMEventTextParser-Mac-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DBAFDA4FF9BBA7752D92CB778DD0FB6B /* Pods_QMEventTextParsing_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QMEventTextParsing_Example.framework; path = "Pods-QMEventTextParsing_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD9FF4BCEFCE1A1972C5EBC03F08AE4 /* QMSemanticChunk.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMSemanticChunk.m; sourceTree = "<group>"; };
 		DCF6B1A5D07BF647989BB65ED5D000CB /* QMLogicDateDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMLogicDateDetector.h; sourceTree = "<group>"; };
-		DCFBDBD432F0F6F362405F24A119F504 /* LocationInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocationInfo.framework; path = "LocationInfo-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F4556AA7AD32D142BBDE319D252FB /* QMGeocoder-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "QMGeocoder-macOS.xcconfig"; path = "../QMGeocoder-macOS/QMGeocoder-macOS.xcconfig"; sourceTree = "<group>"; };
+		DD81AD3398BFDD2A8E5925C2A565275F /* Pods-QMEventTextParser-Mac-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMEventTextParser-Mac-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DEA68B160EDF55087F684F25C6657DF9 /* QMSemanticMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMSemanticMatcher.h; sourceTree = "<group>"; };
+		DF364B2B8CAA5A83CB740A302643E902 /* LocationInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocationInfo.framework; path = "LocationInfo-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB5719D54587C0D2BA505586B7FA2FB /* QMLinguisticUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMLinguisticUnit.h; sourceTree = "<group>"; };
 		E0411AE804F5D87BBF77A9537C453224 /* QMSemanticDateMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMSemanticDateMatcher.m; sourceTree = "<group>"; };
+		E3B010D8059679826B82382E095A1525 /* Pods-QMEventTextParser-Mac-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMEventTextParser-Mac-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E4F00F44A5E676813D3B4BD2940B96DC /* QMEventTextParsing-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QMEventTextParsing-macOS-dummy.m"; path = "../QMEventTextParsing-macOS/QMEventTextParsing-macOS-dummy.m"; sourceTree = "<group>"; };
 		E54550ADDA4C9FF925D83782A4373F4C /* QMPeopleEntitled.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMPeopleEntitled.m; sourceTree = "<group>"; };
 		E69BD52F2F699FE13E72D57A23FFA28B /* QMLinguisticParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMLinguisticParser.h; sourceTree = "<group>"; };
 		E6A3AB479C25891E6768247230274AAA /* QMGeocoder-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "QMGeocoder-macOS.modulemap"; path = "../QMGeocoder-macOS/QMGeocoder-macOS.modulemap"; sourceTree = "<group>"; };
-		E753F628FBEB47967078483E5606856A /* Pods-QMEventTextParser-Mac-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMEventTextParser-Mac-Example.modulemap"; sourceTree = "<group>"; };
-		E7543D4AD491C674680E3BD7D8571F0B /* Pods-QMEventTextParsing_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMEventTextParsing_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E86E868761450A1F5F62A616A9837C1B /* Pods-QMEventTextParsing_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMEventTextParsing_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E8B7C618033AA9CCE76C38DCEC7A4789 /* QMSemanticMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMSemanticMatcher.m; sourceTree = "<group>"; };
 		E92D3EF24FB7CD0F9BE4DDBD6B2EEF4E /* QMDateParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMDateParser.h; sourceTree = "<group>"; };
-		E9B8B7932DFFC0ECD5D855E392C4C5A3 /* Pods-QMEventTextParsing_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMEventTextParsing_Example.modulemap"; sourceTree = "<group>"; };
 		EB0555687269F75F866A87A5443705F5 /* QMGeocoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMGeocoder.m; path = QMGeocoder/Classes/QMGeocoder.m; sourceTree = "<group>"; };
+		ECBC33FA7DB4FF7A632BC4373CDC0CFF /* Pods-QMEventTextParsing_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMEventTextParsing_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EDE627B0E5538C9DEF902E17CD550DF6 /* Pods-QMEventTextParser-Mac-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMEventTextParser-Mac-Example-dummy.m"; sourceTree = "<group>"; };
 		EE73974D54683A5A73D8716FBEDFFD6F /* QMSemanticChunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMSemanticChunk.h; sourceTree = "<group>"; };
 		F02A7259D969BFCB61D67684F9C699E6 /* CDBKit-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CDBKit-macOS.xcconfig"; path = "../CDBKit-macOS/CDBKit-macOS.xcconfig"; sourceTree = "<group>"; };
-		F0A4EF9116B60A95B01288611BBDF7DF /* QMGeocoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMGeocoder.framework; path = "QMGeocoder-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D2053B11C4D21E72EF56BCB0F01445 /* QMEventParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMEventParser.m; path = QMEventTextParsing/Classes/QMEventParser.m; sourceTree = "<group>"; };
+		F21CA05A8CC3A5CBD0B271180977CA27 /* Pods-QMEventTextParsing_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMEventTextParsing_Example.modulemap"; sourceTree = "<group>"; };
 		F24A6BAD2CA032AFAB0A4836A8A788BB /* QMPeopleDataDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMPeopleDataDetector.h; sourceTree = "<group>"; };
 		F2B54FF2AB0429E1AA5EEBA602842CE7 /* CDBKitLocalize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDBKitLocalize.h; path = Pod/Classes/Localize/CDBKitLocalize.h; sourceTree = "<group>"; };
-		F39D0CC73058D6DD15B2ED86BF0F13A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D548FCCF0E90F9191D39969D851F5A /* Pods_QMEventTextParsing_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QMEventTextParsing_Example.framework; path = "Pods-QMEventTextParsing_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EE666328EB85CD46DB194D97836F78 /* LMGeocoderUniversal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LMGeocoderUniversal.framework; path = "LMGeocoderUniversal-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6EB3BBF8E276143F1A95D9DD924167C /* QMSemanticMatcher+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMSemanticMatcher+Private.h"; sourceTree = "<group>"; };
 		F7A350C2BBF7E2064F5956E4EB8A384A /* LocationInfo-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocationInfo-iOS-prefix.pch"; sourceTree = "<group>"; };
-		F8F99918786419697F3358AAD1273948 /* Pods-QMEventTextParser-Mac-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMEventTextParser-Mac-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F91C347FC55DD224D0090DC63D23FFAF /* QMLinguisticUnit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMLinguisticUnit.m; sourceTree = "<group>"; };
 		F97A5186E26A318E4E064DAF579DA72C /* QMEventTextParsing-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QMEventTextParsing-macOS-prefix.pch"; path = "../QMEventTextParsing-macOS/QMEventTextParsing-macOS-prefix.pch"; sourceTree = "<group>"; };
 		F9F60780810F89E0F2DEC70EE0BA71B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CDBKit-macOS/Info.plist"; sourceTree = "<group>"; };
+		FD43168609B69C1BC1B6C3325DD2E193 /* QMGeocoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMGeocoder.framework; path = "QMGeocoder-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6E9269E406AF028CCE8736B2ADA0FC /* QMLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMLocation.m; path = LocationInfo/Classes/Core/QMLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -706,14 +692,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5AC97648896C7426701C95BF3408861 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59B03AC58F5C999028320BDB61C6EBD9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F3008D274B4C00B615826C40BF1DCC9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -726,24 +704,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		025A30B34B5BE9AE95AC3EF5E6777077 /* Pods-QMEventTextParsing_Example */ = {
-			isa = PBXGroup;
-			children = (
-				8D0F11136D2D43EB3A52DD87FA328F6D /* Info.plist */,
-				E9B8B7932DFFC0ECD5D855E392C4C5A3 /* Pods-QMEventTextParsing_Example.modulemap */,
-				9BF1688871B1BCA173D683D1A9DEC737 /* Pods-QMEventTextParsing_Example-acknowledgements.markdown */,
-				86DDF069EC9FF29EE42A81ECFFAE76E5 /* Pods-QMEventTextParsing_Example-acknowledgements.plist */,
-				B7C58B9DDD4E980129E0C16F36AF530C /* Pods-QMEventTextParsing_Example-dummy.m */,
-				826DC023A8E477DCFA117F2004154162 /* Pods-QMEventTextParsing_Example-frameworks.sh */,
-				96D921181AA0D7D32294C7F9D51B3AFB /* Pods-QMEventTextParsing_Example-resources.sh */,
-				591591A15EACE8C5A7EBCAECCDBE8CD6 /* Pods-QMEventTextParsing_Example-umbrella.h */,
-				CAA162B3AD82D63319FC11113DA8A0F7 /* Pods-QMEventTextParsing_Example.debug.xcconfig */,
-				E7543D4AD491C674680E3BD7D8571F0B /* Pods-QMEventTextParsing_Example.release.xcconfig */,
-			);
-			name = "Pods-QMEventTextParsing_Example";
-			path = "Target Support Files/Pods-QMEventTextParsing_Example";
-			sourceTree = "<group>";
-		};
 		0601D32A7CDE0FDC452E195659F32795 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -774,22 +734,21 @@
 			path = "../Target Support Files/LocationInfo-iOS";
 			sourceTree = "<group>";
 		};
-		18F343EFC8D3820771B1F490898A7B1B /* Products */ = {
+		19D8F8A988515093F4B7963F86594825 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9010F5473F2751F97F41ECDDDA2B5BF9 /* CDBKit.framework */,
-				CB7832A9C3B260B9671CB55A26ECF1FF /* CDBKit.framework */,
-				2F5A5C326D06EA219BCFBC0A6D29EED6 /* LMGeocoderUniversal.framework */,
-				7608B2ED6432D525AE6BA8EDE5A3C70A /* LMGeocoderUniversal.framework */,
-				DCFBDBD432F0F6F362405F24A119F504 /* LocationInfo.framework */,
-				9E1A204DC60664C0FE97F5033F58E7CB /* LocationInfo.framework */,
-				658199012196304E21EF160869877F11 /* Pods_QMEventTextParser_Mac_Example.framework */,
-				DBAFDA4FF9BBA7752D92CB778DD0FB6B /* Pods_QMEventTextParsing_Example.framework */,
-				CBF2FC8FCC126C7785BBFFBD23723402 /* Pods_QMEventTextParsing_Tests.framework */,
-				5BF2522CAC29AC397FCD5F51E24EE6C9 /* QMEventTextParsing.framework */,
-				B2E4CA20E90C808E97416128288A842E /* QMEventTextParsing.framework */,
-				F0A4EF9116B60A95B01288611BBDF7DF /* QMGeocoder.framework */,
-				8DC195FBCF33543D5C9A014D41E7A362 /* QMGeocoder.framework */,
+				02AAAE5F7A60C86AEF59343B5531A443 /* CDBKit.framework */,
+				40476E1BE3CC624AF0F621CC70DE8B7C /* CDBKit.framework */,
+				F4EE666328EB85CD46DB194D97836F78 /* LMGeocoderUniversal.framework */,
+				BFB2A1501F43D6685FB7A30D1B10FDE5 /* LMGeocoderUniversal.framework */,
+				A02F268FBF10D5CE45EC1E5181C360EC /* LocationInfo.framework */,
+				DF364B2B8CAA5A83CB740A302643E902 /* LocationInfo.framework */,
+				103C81599996FD7319E46DA5372881B2 /* Pods_QMEventTextParser_Mac_Example.framework */,
+				F4D548FCCF0E90F9191D39969D851F5A /* Pods_QMEventTextParsing_Example.framework */,
+				4E7E622B935767361337C9E2696AD6CC /* QMEventTextParsing.framework */,
+				68DFED980E7FD914ADE1F8A391566C50 /* QMEventTextParsing.framework */,
+				FD43168609B69C1BC1B6C3325DD2E193 /* QMGeocoder.framework */,
+				C3C591D7243DF341695ECC0897C3C348 /* QMGeocoder.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -876,6 +835,15 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		70F75123567D6FBF89F071C3875A7619 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6AB4759C7235CA662BA36ABBC8952AE /* Pods-QMEventTextParser-Mac-Example */,
+				BCD1FC65BF94DE341A58FB435D660237 /* Pods-QMEventTextParsing_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -883,8 +851,8 @@
 				8CC3D2B55F2183A910E71BF753081216 /* Development Pods */,
 				9A4104484D27A2246CAA5B343879F109 /* Frameworks */,
 				1F538FC2F9E9D845973FBA0A5E698FC1 /* Pods */,
-				18F343EFC8D3820771B1F490898A7B1B /* Products */,
-				C45FFDEABB3007F77369294DB5C2E9FF /* Targets Support Files */,
+				19D8F8A988515093F4B7963F86594825 /* Products */,
+				70F75123567D6FBF89F071C3875A7619 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -923,24 +891,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/QMGeocoder-iOS";
-			sourceTree = "<group>";
-		};
-		92CDD307952545D3AD0D2C14C2931F0D /* Pods-QMEventTextParser-Mac-Example */ = {
-			isa = PBXGroup;
-			children = (
-				7605C49B67CFC94A029337CA67902C77 /* Info.plist */,
-				E753F628FBEB47967078483E5606856A /* Pods-QMEventTextParser-Mac-Example.modulemap */,
-				F8F99918786419697F3358AAD1273948 /* Pods-QMEventTextParser-Mac-Example-acknowledgements.markdown */,
-				DB41E1CEE2728D8DF054CDB0155AE414 /* Pods-QMEventTextParser-Mac-Example-acknowledgements.plist */,
-				2523CDBB4419D99920AD2254B9383666 /* Pods-QMEventTextParser-Mac-Example-dummy.m */,
-				D11A4A121696FB8CA088BB525927ABF6 /* Pods-QMEventTextParser-Mac-Example-frameworks.sh */,
-				C54E0244BEEFF7140080F13A860D2733 /* Pods-QMEventTextParser-Mac-Example-resources.sh */,
-				75BF9C2D33DC2D00CC34355BAB05DDCB /* Pods-QMEventTextParser-Mac-Example-umbrella.h */,
-				95444FA896354391E1AA7604AA51DC1C /* Pods-QMEventTextParser-Mac-Example.debug.xcconfig */,
-				BDB6BD822DC65CD8F899164FD4395364 /* Pods-QMEventTextParser-Mac-Example.release.xcconfig */,
-			);
-			name = "Pods-QMEventTextParser-Mac-Example";
-			path = "Target Support Files/Pods-QMEventTextParser-Mac-Example";
 			sourceTree = "<group>";
 		};
 		9A4104484D27A2246CAA5B343879F109 /* Frameworks */ = {
@@ -994,6 +944,24 @@
 			name = UI;
 			sourceTree = "<group>";
 		};
+		BCD1FC65BF94DE341A58FB435D660237 /* Pods-QMEventTextParsing_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CFE346E93FE2551C5A97A65E97989E78 /* Info.plist */,
+				F21CA05A8CC3A5CBD0B271180977CA27 /* Pods-QMEventTextParsing_Example.modulemap */,
+				ECBC33FA7DB4FF7A632BC4373CDC0CFF /* Pods-QMEventTextParsing_Example-acknowledgements.markdown */,
+				A78AFACB030524D32E0003A0DD49307C /* Pods-QMEventTextParsing_Example-acknowledgements.plist */,
+				5B3180D9559FF54C707547235ADB2436 /* Pods-QMEventTextParsing_Example-dummy.m */,
+				612D203F39EF7A155D476CF1DC03D76A /* Pods-QMEventTextParsing_Example-frameworks.sh */,
+				64C9519943657168B47345923F500A84 /* Pods-QMEventTextParsing_Example-resources.sh */,
+				957E66CAD90DF1C678CE692D5052C207 /* Pods-QMEventTextParsing_Example-umbrella.h */,
+				0C71875007856BFA89FD26E26C7A9071 /* Pods-QMEventTextParsing_Example.debug.xcconfig */,
+				CAEA028B77EFCC05D99B16EA91F2B483 /* Pods-QMEventTextParsing_Example.release.xcconfig */,
+			);
+			name = "Pods-QMEventTextParsing_Example";
+			path = "Target Support Files/Pods-QMEventTextParsing_Example";
+			sourceTree = "<group>";
+		};
 		C41E0CC32C56481566257F48626B947C /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -1007,16 +975,6 @@
 			);
 			name = Configuration;
 			path = QMEventTextParsing/Classes/Configuration;
-			sourceTree = "<group>";
-		};
-		C45FFDEABB3007F77369294DB5C2E9FF /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				92CDD307952545D3AD0D2C14C2931F0D /* Pods-QMEventTextParser-Mac-Example */,
-				025A30B34B5BE9AE95AC3EF5E6777077 /* Pods-QMEventTextParsing_Example */,
-				DDAAED92109E350751BB1FD67ECBCE2E /* Pods-QMEventTextParsing_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C6301252A59552638A9A66C415035A95 /* Pod */ = {
@@ -1088,24 +1046,6 @@
 			path = LMGeocoderUniversal;
 			sourceTree = "<group>";
 		};
-		DDAAED92109E350751BB1FD67ECBCE2E /* Pods-QMEventTextParsing_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				F39D0CC73058D6DD15B2ED86BF0F13A1 /* Info.plist */,
-				15018E0870125B68F8F141E11B40AAF6 /* Pods-QMEventTextParsing_Tests.modulemap */,
-				E86E868761450A1F5F62A616A9837C1B /* Pods-QMEventTextParsing_Tests-acknowledgements.markdown */,
-				B6A779438308BC2CEF7DF479157964B4 /* Pods-QMEventTextParsing_Tests-acknowledgements.plist */,
-				3AF521D652710626841EDC918DB26F3E /* Pods-QMEventTextParsing_Tests-dummy.m */,
-				4C5C4B58A9AD1D1842F3A6A7E4A63149 /* Pods-QMEventTextParsing_Tests-frameworks.sh */,
-				B761562A82A547F4D045F459D3741211 /* Pods-QMEventTextParsing_Tests-resources.sh */,
-				6BF5B7E9A4A53799DCA2602D038D2996 /* Pods-QMEventTextParsing_Tests-umbrella.h */,
-				5C2B136AF712F50B218CCCB6073B7AC4 /* Pods-QMEventTextParsing_Tests.debug.xcconfig */,
-				24D74246F895C5029A06FBE7874FD5BC /* Pods-QMEventTextParsing_Tests.release.xcconfig */,
-			);
-			name = "Pods-QMEventTextParsing_Tests";
-			path = "Target Support Files/Pods-QMEventTextParsing_Tests";
-			sourceTree = "<group>";
-		};
 		DF4E4910DFD501F77EAE4895D9BE3725 /* Initial */ = {
 			isa = PBXGroup;
 			children = (
@@ -1131,6 +1071,24 @@
 			);
 			name = QMGeocoder;
 			path = QMGeocoder;
+			sourceTree = "<group>";
+		};
+		F6AB4759C7235CA662BA36ABBC8952AE /* Pods-QMEventTextParser-Mac-Example */ = {
+			isa = PBXGroup;
+			children = (
+				5F3593B54A055EFDA96A16DE4AE63D7C /* Info.plist */,
+				609D2603FE3F14B5662299FB17D979EF /* Pods-QMEventTextParser-Mac-Example.modulemap */,
+				D13099D503053FB872B346B95F517E54 /* Pods-QMEventTextParser-Mac-Example-acknowledgements.markdown */,
+				DD81AD3398BFDD2A8E5925C2A565275F /* Pods-QMEventTextParser-Mac-Example-acknowledgements.plist */,
+				EDE627B0E5538C9DEF902E17CD550DF6 /* Pods-QMEventTextParser-Mac-Example-dummy.m */,
+				BDD9732F29C72808E69697D4F274B8C1 /* Pods-QMEventTextParser-Mac-Example-frameworks.sh */,
+				0EC4025FCBE5BCFDA8D52919AF468878 /* Pods-QMEventTextParser-Mac-Example-resources.sh */,
+				78D203800C1AA085B62406F26C8573F0 /* Pods-QMEventTextParser-Mac-Example-umbrella.h */,
+				E3B010D8059679826B82382E095A1525 /* Pods-QMEventTextParser-Mac-Example.debug.xcconfig */,
+				78EC12699021A7519D66C33C3DF21F7E /* Pods-QMEventTextParser-Mac-Example.release.xcconfig */,
+			);
+			name = "Pods-QMEventTextParser-Mac-Example";
+			path = "Target Support Files/Pods-QMEventTextParser-Mac-Example";
 			sourceTree = "<group>";
 		};
 		FC0EF359ED50C963B61ED8BA8E5D763F /* Support Files */ = {
@@ -1343,14 +1301,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAA160B0886D6BA7B3B9B7F09E499CA4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14B72B9C456FD17DDD6A165A14AEF7D5 /* Pods-QMEventTextParsing_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E836D6DCB1461F7C8A6EB811AA8DB1E1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1417,7 +1367,7 @@
 			);
 			name = "QMGeocoder-iOS";
 			productName = "QMGeocoder-iOS";
-			productReference = 8DC195FBCF33543D5C9A014D41E7A362 /* QMGeocoder.framework */;
+			productReference = FD43168609B69C1BC1B6C3325DD2E193 /* QMGeocoder.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		250CAA55AA496119187A484705C83193 /* LocationInfo-iOS */ = {
@@ -1435,7 +1385,7 @@
 			);
 			name = "LocationInfo-iOS";
 			productName = "LocationInfo-iOS";
-			productReference = DCFBDBD432F0F6F362405F24A119F504 /* LocationInfo.framework */;
+			productReference = A02F268FBF10D5CE45EC1E5181C360EC /* LocationInfo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2A47DAC30E29F3B1C94447B5BD29130A /* Pods-QMEventTextParser-Mac-Example */ = {
@@ -1457,7 +1407,7 @@
 			);
 			name = "Pods-QMEventTextParser-Mac-Example";
 			productName = "Pods-QMEventTextParser-Mac-Example";
-			productReference = 658199012196304E21EF160869877F11 /* Pods_QMEventTextParser_Mac_Example.framework */;
+			productReference = 103C81599996FD7319E46DA5372881B2 /* Pods_QMEventTextParser_Mac_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		518046116E95908499B6BCC6018EFDE2 /* LMGeocoderUniversal-macOS */ = {
@@ -1474,24 +1424,7 @@
 			);
 			name = "LMGeocoderUniversal-macOS";
 			productName = "LMGeocoderUniversal-macOS";
-			productReference = 7608B2ED6432D525AE6BA8EDE5A3C70A /* LMGeocoderUniversal.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		52B33305397A49B298BEF379499D5BD9 /* Pods-QMEventTextParsing_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E82424C73747E4817B93A2D822A36F37 /* Build configuration list for PBXNativeTarget "Pods-QMEventTextParsing_Tests" */;
-			buildPhases = (
-				9A6ACC5C791D5E021D60C85313D997A9 /* Sources */,
-				D5AC97648896C7426701C95BF3408861 /* Frameworks */,
-				CAA160B0886D6BA7B3B9B7F09E499CA4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-QMEventTextParsing_Tests";
-			productName = "Pods-QMEventTextParsing_Tests";
-			productReference = CBF2FC8FCC126C7785BBFFBD23723402 /* Pods_QMEventTextParsing_Tests.framework */;
+			productReference = BFB2A1501F43D6685FB7A30D1B10FDE5 /* LMGeocoderUniversal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		63DF0F9D9A61E409D9CF922DE7019E98 /* Pods-QMEventTextParsing_Example */ = {
@@ -1513,7 +1446,7 @@
 			);
 			name = "Pods-QMEventTextParsing_Example";
 			productName = "Pods-QMEventTextParsing_Example";
-			productReference = DBAFDA4FF9BBA7752D92CB778DD0FB6B /* Pods_QMEventTextParsing_Example.framework */;
+			productReference = F4D548FCCF0E90F9191D39969D851F5A /* Pods_QMEventTextParsing_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		67C9D71961B2B062AE53106DE81B2B03 /* QMGeocoder-macOS */ = {
@@ -1532,7 +1465,7 @@
 			);
 			name = "QMGeocoder-macOS";
 			productName = "QMGeocoder-macOS";
-			productReference = F0A4EF9116B60A95B01288611BBDF7DF /* QMGeocoder.framework */;
+			productReference = C3C591D7243DF341695ECC0897C3C348 /* QMGeocoder.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6B0EFFDB219F74C357946C8026BFBB87 /* LMGeocoderUniversal-iOS */ = {
@@ -1549,7 +1482,7 @@
 			);
 			name = "LMGeocoderUniversal-iOS";
 			productName = "LMGeocoderUniversal-iOS";
-			productReference = 2F5A5C326D06EA219BCFBC0A6D29EED6 /* LMGeocoderUniversal.framework */;
+			productReference = F4EE666328EB85CD46DB194D97836F78 /* LMGeocoderUniversal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		79E4E9D599D1FADDF38294BC5AF57F66 /* QMEventTextParsing-macOS */ = {
@@ -1570,7 +1503,7 @@
 			);
 			name = "QMEventTextParsing-macOS";
 			productName = "QMEventTextParsing-macOS";
-			productReference = 5BF2522CAC29AC397FCD5F51E24EE6C9 /* QMEventTextParsing.framework */;
+			productReference = 4E7E622B935767361337C9E2696AD6CC /* QMEventTextParsing.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7C0B14F4C1D7596C8800BAFCA28071E2 /* QMEventTextParsing-iOS */ = {
@@ -1591,7 +1524,7 @@
 			);
 			name = "QMEventTextParsing-iOS";
 			productName = "QMEventTextParsing-iOS";
-			productReference = B2E4CA20E90C808E97416128288A842E /* QMEventTextParsing.framework */;
+			productReference = 68DFED980E7FD914ADE1F8A391566C50 /* QMEventTextParsing.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A8D88EE4E3F01A95BC3321632E9E3550 /* CDBKit-macOS */ = {
@@ -1608,7 +1541,7 @@
 			);
 			name = "CDBKit-macOS";
 			productName = "CDBKit-macOS";
-			productReference = CB7832A9C3B260B9671CB55A26ECF1FF /* CDBKit.framework */;
+			productReference = 02AAAE5F7A60C86AEF59343B5531A443 /* CDBKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ADA69F9BAD5871BD37FC9A309C56E0D6 /* CDBKit-iOS */ = {
@@ -1625,7 +1558,7 @@
 			);
 			name = "CDBKit-iOS";
 			productName = "CDBKit-iOS";
-			productReference = 9010F5473F2751F97F41ECDDDA2B5BF9 /* CDBKit.framework */;
+			productReference = 40476E1BE3CC624AF0F621CC70DE8B7C /* CDBKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BC1C2AF8E190AB5ACBE22DEE5FA097CA /* LocationInfo-macOS */ = {
@@ -1643,7 +1576,7 @@
 			);
 			name = "LocationInfo-macOS";
 			productName = "LocationInfo-macOS";
-			productReference = 9E1A204DC60664C0FE97F5033F58E7CB /* LocationInfo.framework */;
+			productReference = DF364B2B8CAA5A83CB740A302643E902 /* LocationInfo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1663,7 +1596,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 18F343EFC8D3820771B1F490898A7B1B /* Products */;
+			productRefGroup = 19D8F8A988515093F4B7963F86594825 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1675,7 +1608,6 @@
 				BC1C2AF8E190AB5ACBE22DEE5FA097CA /* LocationInfo-macOS */,
 				2A47DAC30E29F3B1C94447B5BD29130A /* Pods-QMEventTextParser-Mac-Example */,
 				63DF0F9D9A61E409D9CF922DE7019E98 /* Pods-QMEventTextParsing_Example */,
-				52B33305397A49B298BEF379499D5BD9 /* Pods-QMEventTextParsing_Tests */,
 				7C0B14F4C1D7596C8800BAFCA28071E2 /* QMEventTextParsing-iOS */,
 				79E4E9D599D1FADDF38294BC5AF57F66 /* QMEventTextParsing-macOS */,
 				1D788EAAB20F7E05B7DE2A7713B676C7 /* QMGeocoder-iOS */,
@@ -1759,14 +1691,6 @@
 				08AB17EE5B843C3E51A68FC13314A831 /* QMSemanticPersonMatcher.m in Sources */,
 				5F5CCDDC220307640EECD1628422F8FF /* QMTextRecognitionConfig.m in Sources */,
 				02AFDD77E35366C146BE18E2A678C9A8 /* QMWaterfallParser.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A6ACC5C791D5E021D60C85313D997A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6C23259BE30C95E894D2605FA9083BF4 /* Pods-QMEventTextParsing_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2007,6 +1931,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		11D4683E29733ADCFE233EF22F77D29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78EC12699021A7519D66C33C3DF21F7E /* Pods-QMEventTextParser-Mac-Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-QMEventTextParser-Mac-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMEventTextParser-Mac-Example/Pods-QMEventTextParser-Mac-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QMEventTextParser_Mac_Example;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		13F83F76C7BA010206AE2FF35CAC8F0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A4F29D7E949A2FB81193F6F09C2ECD0 /* CDBKit-iOS.xcconfig */;
@@ -2037,99 +1995,7 @@
 			};
 			name = Debug;
 		};
-		1425DCF7078763D4B99FB0F31F5E553E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		2C0195EC85E9D2C73D5B818DBE19EE5F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C2B136AF712F50B218CCCB6073B7AC4 /* Pods-QMEventTextParsing_Tests.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QMEventTextParsing_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QMEventTextParsing_Tests/Pods-QMEventTextParsing_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QMEventTextParsing_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2F9B9B56F35E2F0E2B69A13C43C6A3C2 /* Debug */ = {
+		1B3A69857FA689F77741F9C03B9A9370 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5F4046E74858058B8ED4746015A234C /* QMEventTextParsing-macOS.xcconfig */;
 			buildSettings = {
@@ -2149,7 +2015,7 @@
 				INFOPLIST_FILE = "Target Support Files/QMEventTextParsing-macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = "Target Support Files/QMEventTextParsing-macOS/QMEventTextParsing-macOS.modulemap";
 				PRODUCT_NAME = QMEventTextParsing;
 				SDKROOT = macosx;
@@ -2158,11 +2024,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		351274C968F551E2EE3CC8D94B500BBA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAA162B3AD82D63319FC11113DA8A0F7 /* Pods-QMEventTextParsing_Example.debug.xcconfig */;
+			baseConfigurationReference = 0C71875007856BFA89FD26E26C7A9071 /* Pods-QMEventTextParsing_Example.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2285,9 +2151,43 @@
 			};
 			name = Release;
 		};
+		5F390A7A584EAB6C04B2EB9D79C210B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B010D8059679826B82382E095A1525 /* Pods-QMEventTextParser-Mac-Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-QMEventTextParser-Mac-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-QMEventTextParser-Mac-Example/Pods-QMEventTextParser-Mac-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QMEventTextParser_Mac_Example;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		600C4FE98B9C6C7C7F4492949CDEC54C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7543D4AD491C674680E3BD7D8571F0B /* Pods-QMEventTextParsing_Example.release.xcconfig */;
+			baseConfigurationReference = CAEA028B77EFCC05D99B16EA91F2B483 /* Pods-QMEventTextParsing_Example.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2349,40 +2249,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6B17437F3CE38E2B613304D769247A12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95444FA896354391E1AA7604AA51DC1C /* Pods-QMEventTextParser-Mac-Example.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-QMEventTextParser-Mac-Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-QMEventTextParser-Mac-Example/Pods-QMEventTextParser-Mac-Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QMEventTextParser_Mac_Example;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		6BE03911C269C660CB4F258BB1F42FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2477,104 +2343,6 @@
 			};
 			name = Release;
 		};
-		97C33CB7AF11478B21FE79E7AA88D577 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24D74246F895C5029A06FBE7874FD5BC /* Pods-QMEventTextParsing_Tests.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QMEventTextParsing_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QMEventTextParsing_Tests/Pods-QMEventTextParsing_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QMEventTextParsing_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		98E2B80048619443C82F7F19F6385322 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
 		9BAA9A3D55D9BF5C775681B86A3C226A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 47F3D20203FC4DB08FB0567D12E4FC0B /* LocationInfo-iOS.xcconfig */;
@@ -2665,39 +2433,128 @@
 			};
 			name = Release;
 		};
-		AD2D77FD02BE93BBB3D781346342CF24 /* Release */ = {
+		A52D6600D9AA6C09C241CE1A906F6CD5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDB6BD822DC65CD8F899164FD4395364 /* Pods-QMEventTextParser-Mac-Example.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-QMEventTextParser-Mac-Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-QMEventTextParser-Mac-Example/Pods-QMEventTextParser-Mac-Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QMEventTextParser_Mac_Example;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		A76F6F9CCB81E7F5BD331AAB91DC80C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
 		};
 		C1C1AEBAE0265F250454FF36249A2E65 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2822,6 +2679,37 @@
 			};
 			name = Release;
 		};
+		F0BA8D280D0010DD4CBD3B386E73260A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F4046E74858058B8ED4746015A234C /* QMEventTextParsing-macOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/QMEventTextParsing-macOS/QMEventTextParsing-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMEventTextParsing-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/QMEventTextParsing-macOS/QMEventTextParsing-macOS.modulemap";
+				PRODUCT_NAME = QMEventTextParsing;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F3A64D6EA5B7D07D70AF7220E8C4D449 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD4F4556AA7AD32D142BBDE319D252FB /* QMGeocoder-macOS.xcconfig */;
@@ -2883,37 +2771,6 @@
 			};
 			name = Debug;
 		};
-		FA359AE559D4DAA4030A29232FF28B93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5F4046E74858058B8ED4746015A234C /* QMEventTextParsing-macOS.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/QMEventTextParsing-macOS/QMEventTextParsing-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QMEventTextParsing-macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/QMEventTextParsing-macOS/QMEventTextParsing-macOS.modulemap";
-				PRODUCT_NAME = QMEventTextParsing;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		FA5CA5A08CD3640F3EE4C9AD706109FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 107391F0D3C7CFA5D5A243A58EFE830C /* LocationInfo-macOS.xcconfig */;
@@ -2951,8 +2808,8 @@
 		1DF96D3B1F5A5DB7B19247B91F08479E /* Build configuration list for PBXNativeTarget "Pods-QMEventTextParser-Mac-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B17437F3CE38E2B613304D769247A12 /* Debug */,
-				AD2D77FD02BE93BBB3D781346342CF24 /* Release */,
+				5F390A7A584EAB6C04B2EB9D79C210B2 /* Debug */,
+				11D4683E29733ADCFE233EF22F77D29A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2960,8 +2817,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98E2B80048619443C82F7F19F6385322 /* Debug */,
-				1425DCF7078763D4B99FB0F31F5E553E /* Release */,
+				A76F6F9CCB81E7F5BD331AAB91DC80C8 /* Debug */,
+				A52D6600D9AA6C09C241CE1A906F6CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3056,20 +2913,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E82424C73747E4817B93A2D822A36F37 /* Build configuration list for PBXNativeTarget "Pods-QMEventTextParsing_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C0195EC85E9D2C73D5B818DBE19EE5F /* Debug */,
-				97C33CB7AF11478B21FE79E7AA88D577 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		FF74F8CC835F1D31FF82EF6FC3223DEB /* Build configuration list for PBXNativeTarget "QMEventTextParsing-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F9B9B56F35E2F0E2B69A13C43C6A3C2 /* Debug */,
-				FA359AE559D4DAA4030A29232FF28B93 /* Release */,
+				F0BA8D280D0010DD4CBD3B386E73260A /* Debug */,
+				1B3A69857FA689F77741F9C03B9A9370 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
