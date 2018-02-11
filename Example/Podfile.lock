@@ -23,7 +23,7 @@ PODS:
   - QMEventTextParsing (1.0.2):
     - CDBKit (~> 1.4)
     - QMGeocoder (~> 1.0)
-  - QMGeocoder (1.0.1):
+  - QMGeocoder (1.0.2):
     - LMGeocoderUniversal (~> 1.2)
     - LocationInfo (~> 1.0)
     - LocationInfo/AppleGeocoder (~> 1.0)
@@ -41,7 +41,7 @@ SPEC CHECKSUMS:
   LMGeocoderUniversal: a48427d9d6a9fc74f33cbf9b15303c7b1015b549
   LocationInfo: 1cb7da8c280403459cbb958a9f93dee454679c4f
   QMEventTextParsing: 5a47969cd84f5feca10779a9a97c8cc29c6d3962
-  QMGeocoder: 82b0687cec11f88b7ebabfd6bef2f94f2a6c93e2
+  QMGeocoder: 21841b81ebd72969c86dca70c2ae27ce1dc4bb10
 
 PODFILE CHECKSUM: 2af192bf79686d1ae538c904e153ec356e0c33bb
 

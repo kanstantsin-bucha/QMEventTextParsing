@@ -38,11 +38,14 @@ typedef NS_ENUM(NSUInteger, QMGeocoderServiceProvider) {
 
 
 - (void) geocodeAddress: (NSString * _Nonnull) address
-             completion: (void (^ _Nonnull)(QMLocationInfo * _Nullable info, NSError * _Nullable error))completion;
+             completion: (void (^ _Nonnull)(NSArray<QMLocationInfo *> * _Nullable results, NSError * _Nullable error)) completion;
 
 - (void) geocodeAddress: (NSString * _Nonnull) address
                   using: (QMGeocoderServiceProvider) provider
-             completion: (void (^ _Nonnull)(QMLocationInfo * _Nullable info, NSError * _Nullable error))completion;
+             completion: (void (^ _Nonnull)(NSArray<QMLocationInfo *> * _Nullable results, NSError * _Nullable error)) completion;
+
+- (void) cancelGeocoding;
+
 @end
 
 

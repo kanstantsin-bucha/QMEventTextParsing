@@ -75,16 +75,23 @@
     [LMGeocoder sharedInstance].googleAPIKey = key;
 }
 
-- (void) geocodeAddress: (NSString *) address
-             completion: (void (^)(QMLocationInfo * info, NSError * error)) completion {
+- (void) cancelGeocoding {
+    
+    [self.geocoder cancelGeocode];
+}
+
+- (void) geocodeAddress: (NSString * _Nonnull) address
+             completion: (void (^ _Nonnull)(NSArray<QMLocationInfo *> * _Nullable results, NSError * _Nullable error))completion {
+    
     [self geocodeAddress: address
                    using: self.service
               completion: completion];
 }
 
-- (void) geocodeAddress: (NSString *) address
+- (void) geocodeAddress: (NSString * _Nonnull) address
                   using: (QMGeocoderServiceProvider) provider
-             completion: (void (^)(QMLocationInfo * info, NSError * error)) completion {
+             completion: (void (^ _Nonnull)(NSArray<QMLocationInfo *> * _Nullable results, NSError * _Nullable error)) completion {
+    
     if (completion == nil) {
         return;
     }
@@ -110,22 +117,34 @@
 
 - (void) processAddress: (NSString *) address
                 service: (LMGeocoderService) service
-             completion: (void (^)(QMLocationInfo * info, NSError * error)) completion {
+             completion: (void (^ _Nonnull)(NSArray<QMLocationInfo *> * _Nullable results, NSError * _Nullable error)) completion {
+    
+    if (completion == nil) {
+        return;
+    }
+    
     [self.geocoder geocodeAddressString: address
                                 service: service
-                      completionHandler: ^(NSArray<LMAddress *> * _Nullable results, NSError * _Nullable error) {
-        LMAddress * place = results.firstObject;
+                      completionHandler: ^(NSArray<LMAddress *> * _Nullable places, NSError * _Nullable error) {
+        
         if (error != nil
-            || place == nil) {
+            || places.count == 0) {
             NSLog(@"Geocoder could not find location with address : %@ \
                   \r\n %@",
                   address, error != nil ? error : @"");
         }
 
-        if (completion != nil) {
+        NSMutableArray * results = [NSMutableArray array];
+                          
+        for (LMAddress * place in places) {
             QMLocationInfo * info = [QMLocationInfoLuongConvertion locationInfoUsingAddress: place];
-            completion(info, error);
-        }
+            if (info == nil) {
+                NSLog(@"Geocoder could not create location info for place %@", place);
+            }
+            [results addObject: info];
+         }
+        
+         completion(results, error);
     }];
 }
 

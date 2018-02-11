@@ -148,16 +148,16 @@
     
     [[QMGeocoder shared] geocodeAddress: locationDescription
                                   using: self.geocoderServiceProvider
-                             completion: ^(QMLocationInfo * info, NSError * error) {
+                             completion: ^(NSArray<QMLocationInfo *> * results, NSError * error) {
                         
     
-        if (info == nil) {
+        if (results.count == 0) {
             NSError * error = [self notGeocodedErrorUsingString: locationDescription];
             completion(string, error);
             return;
         }
             
-        wself.detectedLocation = info;
+        wself.detectedLocation = results.firstObject;
              
         NSString * passedBy = [self stringByReducing: string
                                          usingChunks: self.detected];

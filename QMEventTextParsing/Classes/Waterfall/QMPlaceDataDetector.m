@@ -111,10 +111,12 @@
     
     [[QMGeocoder shared] geocodeAddress: locationDescription
                                   using: self.geocoderServiceProvider
-                             completion: ^(QMLocationInfo * info, NSError * error) {
+                             completion: ^(NSArray<QMLocationInfo *> * results, NSError * error) {
         
         NSString * passedBy = string;
-                        
+        
+        QMLocationInfo * info = results.firstObject;
+                                 
         if (info != nil) {
             wself.detectedLocation = info;
             [wself.detected addObject: possibleChunk];

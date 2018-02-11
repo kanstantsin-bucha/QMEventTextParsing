@@ -225,7 +225,10 @@
     NSLog(@"Deep Mind will try this place description: %@", description);
     [[QMGeocoder shared] geocodeAddress: description
                                   using: self.geocoderServiceProvider
-                             completion: ^(QMLocationInfo * placeInfo, NSError * error) {
+                             completion: ^(NSArray<QMLocationInfo *> * results, NSError * error) {
+                                 
+        QMLocationInfo * placeInfo = results.firstObject;
+                                 
         if (info == nil) {
             NSString * precisionDesciption = wself.unit.precisionLocationDescription;
             if (placeInfo != nil
@@ -241,7 +244,9 @@
                // try to pass only precision location
                 [[QMGeocoder shared] geocodeAddress: precisionDesciption
                                               using: wself.geocoderServiceProvider
-                                         completion: ^(QMLocationInfo * precisionPlaceInfo, NSError * error) {
+                                         completion: ^(NSArray<QMLocationInfo *> * precisionResults, NSError * error) {
+                                             
+                    QMLocationInfo * precisionPlaceInfo = precisionResults.firstObject;
                     NSLog(@"Deep Mind geocode precision: '%@' and reveal \r place: %@",
                             precisionDesciption, precisionPlaceInfo);
                     
@@ -289,8 +294,10 @@
 
         [[QMGeocoder shared] geocodeAddress: correctedDescription
                                       using: wself.geocoderServiceProvider
-                                 completion: ^(QMLocationInfo * correctedPlaceInfo, NSError * error) {
-
+                                 completion: ^(NSArray<QMLocationInfo *> * correctedResults, NSError * error) {
+                            
+            QMLocationInfo * correctedPlaceInfo = correctedResults.firstObject;
+                                     
             if ([correctedPlaceInfo isSpecificPlaceOfLocation: info]) {
                  // we finally got location that is specific place of preprocessed location
                 NSLog(@"Deep Mind geocode: '%@' and reveal \r specific corrected place: %@",
