@@ -42,7 +42,7 @@ typedef NSDictionary<NSString *, NSArray<QMRelationship *> *> QMRelationships;
 - (NSString * _Nullable) validPersonNameUsing: (NSString * _Nonnull) name;
 - (NSArray<QMRelationship *> * _Nullable) relationshipsUsingRealtionshipToken: (QMLinguisticToken * _Nonnull) token;
 - (QMRelationship * _Nullable) resolveRelationships: (NSArray<QMRelationship *> * _Nonnull) relationships
-                           usingNextToken: (QMLinguisticToken * _Nullable) token;
+                                     usingNextToken: (QMLinguisticToken * _Nullable) token;
 
 @end
 
@@ -61,7 +61,7 @@ QMPeopleEntitledInterface
 - (void) updateRelationshipsUsing: (QMRelationships * _Nonnull) relationships;
 
 
-+ (QMRelationships * _Nullable) composeRelationshipsFrom: (NSArray<QMRelationship *> * _Nonnull) relationshipsList;
++ (QMRelationships * _Nonnull) composeRelationshipsFrom: (NSArray<QMRelationship *> * _Nullable) relationshipsList;
 
 /*!
  * @brief each object of strings array
