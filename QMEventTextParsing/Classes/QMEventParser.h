@@ -15,18 +15,18 @@
 @property (strong, nonatomic, readonly) id<QMTextRecognitionConfigInterface> config;
 @property (strong, nonatomic, readonly) id<QMPeopleEntitledInterface> peopleEntitled;
 
-+ (instancetype) parserUsingConfiguration: (id<QMTextRecognitionConfigInterface>) config
-                           peopleEntitled: (id<QMPeopleEntitledInterface>) entitled;
++ (instancetype _Nullable) parserUsingConfiguration: (id<QMTextRecognitionConfigInterface> _Nonnull) config
+                                     peopleEntitled: (id<QMPeopleEntitledInterface> _Nonnull) entitled;
 
-- (instancetype)init __unavailable;
+- (instancetype _Nullable)init __unavailable;
 
 /*!
  *  @brief parse text and provide
  *  QMParserResult object in completion block
  */
 
-- (void)parseText: (NSString *) text
-   withCompletion: (CDBObjectErrorCompletion) completion;
+- (void)parseText: (NSString * _Nonnull) text
+   withCompletion: (CDBObjectErrorCompletion _Nonnull) completion;
 
 
 @end
@@ -34,7 +34,7 @@
 
 @interface QMEventParser: NSObject
 
-+ (id<QMEventParserInterface>) parserUsingConfiguration: (id<QMTextRecognitionConfigInterface>) config
-                                         peopleEntitled: (id<QMPeopleEntitledInterface>) entitled;
++ (id<QMEventParserInterface> _Nullable) parserUsingConfiguration: (id<QMTextRecognitionConfigInterface> _Nonnull) config
+                                                   peopleEntitled: (id<QMPeopleEntitledInterface> _Nonnull) entitled;
 
 @end

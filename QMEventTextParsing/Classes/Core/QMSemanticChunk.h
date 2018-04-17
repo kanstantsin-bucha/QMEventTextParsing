@@ -13,16 +13,16 @@
 
 @interface QMSemanticChunk : NSObject
 
-@property (strong, nonatomic, readonly) QMLinguisticToken * token;
+@property (strong, nonatomic, readonly, nonnull) QMLinguisticToken * token;
 @property (assign, nonatomic, readonly) NSRange range;
 @property (assign, nonatomic, readonly) NSInteger position;
 
 @property (assign, nonatomic) QMSemanticType type;
 
-+ (instancetype) chunkUsingText: (NSString *) text
-                   semanticType: (QMSemanticType) type
-                          range: (NSRange) range
-                       position: (NSInteger) position;
++ (instancetype _Nullable) chunkUsingText: (NSString * _Nonnull) text
+                             semanticType: (QMSemanticType) type
+                                    range: (NSRange) range
+                                 position: (NSInteger) position;
 
 @end
 

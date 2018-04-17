@@ -13,12 +13,12 @@
 
 @interface QMLinguisticTagger : NSObject
 
-@property (strong, nonatomic, readonly) id<QMTextRecognitionConfigInterface> config;
+@property (strong, nonatomic, readonly, nonnull) id<QMTextRecognitionConfigInterface> config;
 
-+ (instancetype) taggerUsingConfiguration: (id<QMTextRecognitionConfigInterface>) config;
++ (instancetype _Nullable) taggerUsingConfiguration: (id<QMTextRecognitionConfigInterface> _Nonnull) config;
 
-- (void) enumerateChunksInString: (NSString *) string
-                      usingBlock: (void (^)(QMSemanticChunk * chunk, BOOL *stop)) block;
+- (void) enumerateChunksInString: (NSString * _Nonnull) string
+                      usingBlock: (void (^ _Nonnull)(QMSemanticChunk * chunk, BOOL * stop)) block;
 
 
 @end

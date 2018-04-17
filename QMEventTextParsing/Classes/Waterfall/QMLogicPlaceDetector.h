@@ -17,13 +17,13 @@ QMLocationInfo;
 
 @interface QMLogicPlaceDetector : QMDetector
 
-@property (strong, nonatomic, readonly) NSArray<NSString *> * detectedPlaces;
-@property (strong, nonatomic, readonly) NSArray<NSString *> * detectedOrganizations;
-@property (strong, nonatomic, readonly) NSString * detectedPlaceGeocoderDescription;
+@property (strong, nonatomic, readonly, nullable) NSArray<NSString *> * detectedPlaces;
+@property (strong, nonatomic, readonly, nullable) NSArray<NSString *> * detectedOrganizations;
+@property (strong, nonatomic, readonly, nullable) NSString * detectedPlaceGeocoderDescription;
 
-@property (strong, nonatomic, readonly) QMLocationInfo * detectedLocation;
+@property (strong, nonatomic, readonly, nullable) QMLocationInfo * detectedLocation;
 
-+ (instancetype) detectorUsingConfiguration: (id<QMTextRecognitionConfigInterface>) config
-                             peopleEntitled: (id<QMPeopleEntitledInterface>) entitled;
++ (instancetype _Nullable) detectorUsingConfiguration: (id<QMTextRecognitionConfigInterface> _Nonnull) config
+                                       peopleEntitled: (id<QMPeopleEntitledInterface> _Nonnull) entitled;
 
 @end

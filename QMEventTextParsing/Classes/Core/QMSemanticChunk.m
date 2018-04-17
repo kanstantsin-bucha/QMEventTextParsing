@@ -25,7 +25,11 @@
                    semanticType: (QMSemanticType) type
                           range: (NSRange) range
                        position: (NSInteger) position {
-    if (text.length == 0) {
+    
+    QMLinguisticToken * token = [QMLinguisticToken tokenUsingText: text];
+    
+    if (token == nil) {
+        
         return nil;
     }
     
@@ -34,7 +38,7 @@
     result.range = range;
     result.position = position;
     
-    QMLinguisticToken * token = [QMLinguisticToken tokenUsingText: text];
+   
     result.token = token;
 
     return result;

@@ -13,12 +13,12 @@
 
 @interface QMConfigParser : NSObject
 
-+ (NSArray<NSNumber *> *) numbersUsingStringsList: (NSString *) list;
-+ (NSArray<NSString *> *) wordsUsingStringsList: (NSString *) list;
-+ (NSDictionary<NSString *, NSNumber *> *) pairsUsingStrings: (NSString *) strings;
++ (NSArray<NSNumber *> * _Nullable) numbersUsingStringsList: (NSString * _Nonnull) list;
++ (NSArray<NSString *> * _Nullable) wordsUsingStringsList: (NSString * _Nonnull) list;
++ (NSDictionary<NSString *, NSNumber *> * _Nullable) pairsUsingStrings: (NSString * _Nonnull) strings;
 
-+ (id)objectOfClass:(Class)class
-     fromDictionary:(NSDictionary *)dict
-           usingKey:(NSString *)key;
++ (id)objectOfClass:(Class _Nonnull)class
+     fromDictionary:(NSDictionary * _Nonnull)dict
+           usingKey:(NSString * _Nonnull)key;
 
 @end

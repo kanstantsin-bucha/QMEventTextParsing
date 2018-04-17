@@ -19,11 +19,11 @@ typedef NSArray<NSString *> QMPeople;
 
 @interface QMRelationship : NSObject
 
-@property (strong, nonatomic, readonly) NSString * alias;
-@property (strong, nonatomic, readonly) QMPeople * people;
+@property (strong, nonatomic, readonly, nullable) NSString * alias;
+@property (strong, nonatomic, readonly, nullable) QMPeople * people;
 
-+ (instancetype)relationshipForAlias: (NSString *) alias
-                               using: (QMPeople *) people;
++ (instancetype _Nullable)relationshipForAlias: (NSString * _Nonnull) alias
+                                         using: (QMPeople * _Nonnull) people;
 
 @end
 
@@ -39,10 +39,10 @@ typedef NSDictionary<NSString *, NSArray<QMRelationship *> *> QMRelationships;
 
 @property (strong, nonatomic, readonly) QMRelationships * relationships;
 
-- (NSString *) validPersonNameUsing: (NSString *) name;
-- (NSArray<QMRelationship *> *) relationshipsUsingRealtionshipToken: (QMLinguisticToken *) token;
-- (QMRelationship *) resolveRelationships: (NSArray<QMRelationship *> *) relationships
-                           usingNextToken: (QMLinguisticToken *) token;
+- (NSString * _Nullable) validPersonNameUsing: (NSString * _Nonnull) name;
+- (NSArray<QMRelationship *> * _Nullable) relationshipsUsingRealtionshipToken: (QMLinguisticToken * _Nonnull) token;
+- (QMRelationship * _Nullable) resolveRelationships: (NSArray<QMRelationship *> * _Nonnull) relationships
+                           usingNextToken: (QMLinguisticToken * _Nullable) token;
 
 @end
 
@@ -52,16 +52,16 @@ typedef NSDictionary<NSString *, NSArray<QMRelationship *> *> QMRelationships;
 QMPeopleEntitledInterface
 >
 
-@property (strong, nonatomic, readonly) QMPeople * people;
+@property (strong, nonatomic, readonly, nullable) QMPeople * people;
 
 
-+ (instancetype)entitledUsingPeople: (QMPeople *) people
-                      relationships: (QMRelationships *) relationships;
++ (instancetype _Nullable)entitledUsingPeople: (QMPeople * _Nonnull) people
+                                relationships: (QMRelationships * _Nonnull) relationships;
 
-- (void) updateRelationshipsUsing: (QMRelationships *) relationships;
+- (void) updateRelationshipsUsing: (QMRelationships * _Nonnull) relationships;
 
 
-+ (QMRelationships *) composeRelationshipsFrom: (NSArray<QMRelationship *> *) relationshipsList;
++ (QMRelationships * _Nullable) composeRelationshipsFrom: (NSArray<QMRelationship *> * _Nonnull) relationshipsList;
 
 /*!
  * @brief each object of strings array
@@ -76,6 +76,6 @@ QMPeopleEntitledInterface
  * QM_Documents_Settings_Initial_Relationships_File_LogicSeparators_Characters
  */
 
-+ (NSArray<QMRelationship *> *) buildRelationshipsListUsing: (NSArray *) strings;
++ (NSArray<QMRelationship *> * _Nullable) buildRelationshipsListUsing: (NSArray * _Nonnull) strings;
 
 @end

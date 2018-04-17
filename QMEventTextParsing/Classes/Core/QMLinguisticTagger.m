@@ -37,6 +37,11 @@
 
 + (instancetype) taggerUsingConfiguration: (id<QMTextRecognitionConfigInterface>) config {
     
+    if (config == nil) {
+        
+        return nil;
+    }
+    
     QMLinguisticTagger * result = [QMLinguisticTagger new];
 
     result.config = config;

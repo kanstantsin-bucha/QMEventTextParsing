@@ -20,21 +20,21 @@
 
 @property (strong, nonatomic) QMSemanticMatcher * sequence;
 
-@property (strong, nonatomic, readonly)  NSArray<QMSemanticDateMatcher *> * dateMatches;
-@property (strong, nonatomic, readonly)  NSArray<QMSemanticPersonMatcher *> * personMatches;
-@property (strong, nonatomic, readonly)  NSArray<QMSemanticLocationMatcher *> * locationMatches;
+@property (strong, nonatomic, readonly, nullable)  NSArray<QMSemanticDateMatcher *> * dateMatches;
+@property (strong, nonatomic, readonly, nullable)  NSArray<QMSemanticPersonMatcher *> * personMatches;
+@property (strong, nonatomic, readonly, nullable)  NSArray<QMSemanticLocationMatcher *> * locationMatches;
 
-@property (strong, nonatomic, readonly) NSString * locationDescription;
-@property (strong, nonatomic, readonly) NSString * precisionLocationDescription;
+@property (strong, nonatomic, readonly, nullable) NSString * locationDescription;
+@property (strong, nonatomic, readonly, nullable) NSString * precisionLocationDescription;
 
-@property (strong, nonatomic, readonly) id<QMTextRecognitionConfigInterface> config;
-@property (strong, nonatomic, readonly) id<QMPeopleEntitledInterface> peopleEntitled;
+@property (strong, nonatomic, readonly, nonnull) id<QMTextRecognitionConfigInterface> config;
+@property (strong, nonatomic, readonly, nullable) id<QMPeopleEntitledInterface> peopleEntitled;
 
-+ (instancetype) unitUsingConfiguration: (id<QMTextRecognitionConfigInterface>) config
-                         peopleEntitled: (id<QMPeopleEntitledInterface>) entitled;
++ (instancetype _Nullable) unitUsingConfiguration: (id<QMTextRecognitionConfigInterface> _Nonnull) config
+                                   peopleEntitled: (id<QMPeopleEntitledInterface> _Nonnull) entitled;
 
 - (void) start;
-- (void) appendChunk: (QMSemanticChunk *) chunk;
+- (void) appendChunk: (QMSemanticChunk * _Nonnull) chunk;
 - (void) finish;
 
 @end

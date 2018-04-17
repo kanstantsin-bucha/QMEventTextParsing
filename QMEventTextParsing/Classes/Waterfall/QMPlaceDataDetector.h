@@ -13,8 +13,8 @@
 @interface QMPlaceDataDetector : QMDetector
 
 @property (assign, nonatomic, readonly) QMGeocoderServiceProvider geocoderServiceProvider;
-@property (strong, nonatomic, readonly) QMLocationInfo * detectedLocation;
+@property (strong, nonatomic, readonly, nullable) QMLocationInfo * detectedLocation;
 
-+ (instancetype) detectorUsingProvider: (QMGeocoderServiceProvider) geocoderServiceProvider;
++ (instancetype _Nonnull) detectorUsingProvider: (QMGeocoderServiceProvider) geocoderServiceProvider;
 
 @end

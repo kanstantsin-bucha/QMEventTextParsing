@@ -13,16 +13,16 @@
 
 @interface QMSemanticMatcher : NSObject
 
-@property (strong, nonatomic, readonly) NSArray<QMSemanticChunk *> * chunks;
+@property (strong, nonatomic, readonly, nullable) NSArray<QMSemanticChunk *> * chunks;
 
-@property (strong, nonatomic) QMSemanticChunk * sequenceDelimiter;
+@property (strong, nonatomic, nullable) QMSemanticChunk * sequenceDelimiter;
 @property (assign, nonatomic) QMSemanticeMatch match;
 
 @property (assign, nonatomic, readonly) BOOL finished;
 
-@property (weak, nonatomic) NSMutableArray<QMSemanticMatcher *> * targetBucket;
+@property (weak, nonatomic, nullable) NSMutableArray<QMSemanticMatcher *> * targetBucket;
 
-- (void) appendChunk: (QMSemanticChunk *) chunk;
+- (void) appendChunk: (QMSemanticChunk * _Nonnull) chunk;
 - (void) matchAgainstBestMatch: (QMSemanticeMatch) match;
 - (void) finish;
 

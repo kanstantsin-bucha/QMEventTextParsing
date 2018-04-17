@@ -68,6 +68,7 @@
 
 + (instancetype) matcherUsing: (id<QMPeopleEntitledInterface>) peopleEntitled
         forbiddenPrepositions: (NSArray<NSString *> *) forbiddenPrepositions {
+    
     QMSemanticPersonMatcher * result = [[self class] new];
     
     result.peopleEntitled = peopleEntitled;

@@ -13,9 +13,9 @@
 
 @interface QMPeopleDataDetector : QMDetector
 
-@property (strong, nonatomic, readonly) NSArray<NSString *> * detectedPeople;
+@property (strong, nonatomic, readonly, nullable) NSArray<NSString *> * detectedPeople;
 
-+ (instancetype) detectorUsingConfiguration: (id<QMTextRecognitionConfigInterface>) config
-                             peopleEntitled: (id<QMPeopleEntitledInterface>) entitled;
++ (instancetype _Nullable) detectorUsingConfiguration: (id<QMTextRecognitionConfigInterface> _Nonnull) config
+                                       peopleEntitled: (id<QMPeopleEntitledInterface> _Nonnull) entitled;
 
 @end

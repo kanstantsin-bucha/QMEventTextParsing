@@ -88,6 +88,7 @@
 + (instancetype) unitUsingConfiguration: (id<QMTextRecognitionConfigInterface>) config
                          peopleEntitled: (id<QMPeopleEntitledInterface>) entitled {
     if (config == nil) {
+        
         return nil;
     }
     

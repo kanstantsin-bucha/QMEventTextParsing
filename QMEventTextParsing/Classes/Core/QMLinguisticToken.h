@@ -11,10 +11,10 @@
 
 @interface QMLinguisticToken : NSObject
 
-@property (copy, nonatomic, readonly) NSString * text;
-@property (copy, nonatomic, readonly) NSString * lowercase;
+@property (copy, nonatomic, readonly, nullable) NSString * text;
+@property (copy, nonatomic, readonly, nullable) NSString * lowercase;
 
-+ (instancetype) tokenUsingText: (NSString *) text;
++ (instancetype _Nullable) tokenUsingText: (NSString * _Nonnull) text;
 
 - (BOOL) hasFirstLetterUppercase;
 

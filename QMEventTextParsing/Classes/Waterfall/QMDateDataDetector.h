@@ -10,8 +10,8 @@
 
 @interface QMDateDataDetector : QMDetector
 
-@property (strong, nonatomic, readonly) NSDate * detectedDate;
+@property (strong, nonatomic, readonly, nullable) NSDate * detectedDate;
 
-+ (instancetype) detectorUsingLocale: (NSLocale *) locale;
++ (instancetype _Nullable) detectorUsingLocale: (NSLocale * _Nonnull) locale;
 
 @end

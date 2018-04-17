@@ -11,9 +11,9 @@
 
 @interface QMSemanticPersonMatcher : QMSemanticMatcher
 
-@property (copy, nonatomic, readonly) NSArray<NSString *> * persons;
+@property (copy, nonatomic, readonly, nullable) NSArray<NSString *> * persons;
 
-+ (instancetype) matcherUsing: (id<QMPeopleEntitledInterface>) peopleEntitled
-        forbiddenPrepositions: (NSArray<NSString *> *) forbiddenPrepositions;
++ (instancetype _Nullable) matcherUsing: (id<QMPeopleEntitledInterface> _Nonnull) peopleEntitled
+                  forbiddenPrepositions: (NSArray<NSString *> * _Nonnull) forbiddenPrepositions;
 
 @end

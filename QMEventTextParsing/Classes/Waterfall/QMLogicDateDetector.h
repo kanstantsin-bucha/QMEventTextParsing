@@ -13,9 +13,9 @@
 
 @interface QMLogicDateDetector : QMDetector
 
-@property (strong, nonatomic, readonly) NSDate * detectedDate;
+@property (strong, nonatomic, readonly, nullable) NSDate * detectedDate;
 
-+ (instancetype) detectorUsingConfiguration: (id<QMTextRecognitionConfigInterface>) config
-                             peopleEntitled: (id<QMPeopleEntitledInterface>) entitled;
++ (instancetype _Nullable) detectorUsingConfiguration: (id<QMTextRecognitionConfigInterface> _Nonnull) config
+                                       peopleEntitled: (id<QMPeopleEntitledInterface> _Nonnull) entitled;
 
 @end

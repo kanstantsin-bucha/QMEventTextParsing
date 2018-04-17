@@ -13,12 +13,12 @@
 
 @interface QMDetector : NSObject
 
-@property (strong, nonatomic, readonly) NSArray<QMSemanticChunk *> * detectedChunks;
-@property (strong, nonatomic, readonly) NSArray<QMSemanticChunk *> * possibleChunks;
+@property (strong, nonatomic, readonly, nullable) NSArray<QMSemanticChunk *> * detectedChunks;
+@property (strong, nonatomic, readonly, nullable) NSArray<QMSemanticChunk *> * possibleChunks;
 @property (assign, nonatomic, readonly) BOOL failed;
-@property (copy, nonatomic, readonly) NSString * detectedValueDescription;
+@property (copy, nonatomic, readonly, nullable) NSString * detectedValueDescription;
 
-- (void)detectDataUsingString: (NSString *) string
-                   completion: (CDBObjectErrorCompletion) completion;
+- (void) detectDataUsingString: (NSString * _Nonnull) string
+                    completion: (CDBObjectErrorCompletion _Nonnull) completion;
 
 @end

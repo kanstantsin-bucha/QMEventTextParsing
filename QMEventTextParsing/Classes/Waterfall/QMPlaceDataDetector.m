@@ -53,6 +53,7 @@
     //MARK: - life cycle -
 
 + (instancetype) detectorUsingProvider: (QMGeocoderServiceProvider) geocoderServiceProvider {
+    
     QMPlaceDataDetector * result = [[self class] new];
     result.geocoderServiceProvider = geocoderServiceProvider;
     

@@ -10,15 +10,15 @@
 
 @interface QMDateParser : NSObject
 
-- (NSInteger) yearUsingNumberSequence: (NSString *) sequence;
-- (NSInteger) dayUsingNumberSequence: (NSString *) sequence;
+- (NSInteger) yearUsingNumberSequence: (NSString * _Nonnull) sequence;
+- (NSInteger) dayUsingNumberSequence: (NSString * _Nonnull) sequence;
 
-- (NSDate *) dateFromDay: (NSInteger) day
-                   month: (NSInteger) month
-                    year: (NSInteger) year
-                   using: (NSCalendar *) calendar;
+- (NSDate * _Nullable) dateFromDay: (NSInteger) day
+                             month: (NSInteger) month
+                              year: (NSInteger) year
+                             using: (NSCalendar * _Nonnull) calendar;
 
-- (NSDate *) parseDatePhase: (NSString *) datePhase
-                usingLocale: (NSLocale *) locale;
+- (NSDate * _Nullable) parseDatePhase: (NSString * _Nonnull) datePhase
+                          usingLocale: (NSLocale * _Nonnull) locale;
 
 @end

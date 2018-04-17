@@ -13,11 +13,11 @@ QMLocationInfo;
 
 @interface QMSemanticLocationMatcher : QMSemanticMatcher
 
-@property (strong, nonatomic, readonly) NSString * location;
-@property (strong, nonatomic, readonly) NSString * precisionLocation;
-@property (strong, nonatomic, readonly) QMLocationInfo * info;
-@property (strong, nonatomic, readonly) NSArray<NSString *> * targetPrepositions;
+@property (strong, nonatomic, readonly, nullable) NSString * location;
+@property (strong, nonatomic, readonly, nullable) NSString * precisionLocation;
+@property (strong, nonatomic, readonly, nullable) QMLocationInfo * info;
+@property (strong, nonatomic, readonly, nullable) NSArray<NSString *> * targetPrepositions;
 
-+ (instancetype) matcherUsing: (NSArray<NSString *> *) targetPrepositions;
++ (instancetype _Nullable) matcherUsing: (NSArray<NSString *> * _Nonnull) targetPrepositions;
 
 @end

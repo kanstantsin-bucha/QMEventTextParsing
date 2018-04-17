@@ -38,34 +38,34 @@ typedef enum : NSInteger {
 
 @protocol QMTextRecognitionConfigInterface
 
-@property (copy, nonatomic, readonly) NSString * language;
-@property (copy, nonatomic, readonly) NSString * languageTitle;
+@property (copy, nonatomic, readonly, nullable) NSString * language;
+@property (copy, nonatomic, readonly, nullable) NSString * languageTitle;
 @property (assign, nonatomic, readonly) QMParserProviderType eventParserServiceProvider;
 @property (assign, nonatomic, readonly) QMGeocodingProviderType geocoderServiceProvider;
 
-@property (strong, nonatomic, readonly) NSArray<NSNumber *> * waterfallParserOrderList;
+@property (strong, nonatomic, readonly, nullable) NSArray<NSNumber *> * waterfallParserOrderList;
 
-@property (strong, nonatomic, readonly) NSLocale * locale;
-@property (strong, nonatomic, readonly) NSCalendar * calendar;
-@property (strong, nonatomic, readonly) NSDictionary<NSString *, NSNumber *> * seasons;
-@property (strong, nonatomic, readonly) NSDictionary<NSString *, NSNumber *> * months;
+@property (strong, nonatomic, readonly, nullable) NSLocale * locale;
+@property (strong, nonatomic, readonly, nullable) NSCalendar * calendar;
+@property (strong, nonatomic, readonly, nullable) NSDictionary<NSString *, NSNumber *> * seasons;
+@property (strong, nonatomic, readonly, nullable) NSDictionary<NSString *, NSNumber *> * months;
 
-@property (strong, nonatomic, readonly) NSArray<NSString *> * punctuationMarks;
-@property (strong, nonatomic, readonly) NSArray<NSString *> * unifyingPrepositions;
-@property (strong, nonatomic, readonly) NSArray<NSString *> * locationPrepositions;
-@property (strong, nonatomic, readonly) NSArray<NSString *> * definiteArticles;
+@property (strong, nonatomic, readonly, nullable) NSArray<NSString *> * punctuationMarks;
+@property (strong, nonatomic, readonly, nullable) NSArray<NSString *> * unifyingPrepositions;
+@property (strong, nonatomic, readonly, nullable) NSArray<NSString *> * locationPrepositions;
+@property (strong, nonatomic, readonly, nullable) NSArray<NSString *> * definiteArticles;
 
 @end
 
 
 @interface QMTextRecognitionConfig : NSObject
-< QMTextRecognitionConfigInterface >
+<QMTextRecognitionConfigInterface >
 
-+ (instancetype) localConfigurationUsingLanguage: (NSString *) language;
++ (instancetype _Nullable) localConfigurationUsingLanguage: (NSString * _Nonnull) language;
 
 - (void) updateGeocoderServiceProvider: (QMGeocodingProviderType) geocoderServiceProvider;
 - (void) updateEventParserServiceProvider: (QMParserProviderType) eventParserServiceProvider;
 
-+ (NSString *) languageKeyUsingLanguage: (NSString *) language;
++ (NSString * _Nullable) languageKeyUsingLanguage: (NSString * _Nonnull) language;
 
 @end
