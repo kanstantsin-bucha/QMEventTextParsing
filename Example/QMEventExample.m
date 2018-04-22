@@ -44,11 +44,11 @@ static id<QMEventParserInterface> _parser = nil;
     NSString * text =  @"Mike and Bill in New York in March 17 1978";
     //    NSString * text =  @"I and my brother in New York in March 17 1978";
     
-//    [_parser parseText: text
-//            withCompletion: ^(QMParserResult * _Nullable result, NSError * _Nullable error) {
-//                
-//        NSLog(@"result %@", result);
-//    }];
+    [_parser parseText: text
+            withCompletion: ^(QMParserResult * _Nullable result, NSError * _Nullable error) {
+                
+        NSLog(@"result %@", result);
+    }];
     
     QMLogicDateDetector * dateDetector = [QMLogicDateDetector detectorUsingConfiguration: config
                                                                           peopleEntitled: entitled];
