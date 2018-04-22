@@ -195,8 +195,28 @@
                 NSLog(@"date sequence got day %@", @(self.day));
             }
         } break;
-    
+        
+        case 3: {
+        
+            NSInteger day = [self.dateParser dayUsingNumberSequence: numberString];
+            if (self.day == NSNotFound
+                && day != NSNotFound) {
+                self.day = day;
+                NSLog(@"date sequence got day %@", @(self.day));
+            }
+        } break;
+            
         case 4: {
+            
+            NSInteger day = [self.dateParser dayUsingNumberSequence: numberString];
+            if (self.day == NSNotFound
+                && day != NSNotFound) {
+                self.day = day;
+                NSLog(@"date sequence got day %@", @(self.day));
+                
+                break;
+            }
+            
             NSInteger year = [self.dateParser yearUsingNumberSequence: numberString];
             if (year != NSNotFound) {
                 self.year = year;
@@ -206,7 +226,8 @@
 
         case 6: {
             if (self.day != NSNotFound) {
-                return;
+                
+                break;
             }
             
             NSString * dayString = [numberString substringToIndex: 2];

@@ -41,7 +41,7 @@ static id<QMEventParserInterface> _parser = nil;
     
     //    NSString * text =  @"I and my brother in New York in March 17 1978";
     //    NSString * text =  @"I and Mark in New York in March 17 1978";
-    NSString * text =  @"Mike and Bill in New York in March 17 1978";
+    NSString * text =  @"Mike and Bill in New York in March 17th 1978";
     //    NSString * text =  @"I and my brother in New York in March 17 1978";
     
     [_parser parseText: text
