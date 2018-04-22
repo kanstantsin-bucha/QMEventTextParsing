@@ -85,7 +85,8 @@
 //MARK: - life cycle -
 
 + (instancetype) matcherUsing: (NSDictionary<NSString *, NSNumber *> *) noun2MonthSubstitution
-                     calendar: (NSCalendar *) calendar {
+                     calendar: (NSCalendar *) calendar
+                       locale: (NSLocale *) locale {
     
     if (calendar == nil) {
         
@@ -101,7 +102,7 @@
     result.day = NSNotFound;
     
     result.calendar = calendar;
-    result.dateParser = [QMDateParser new];
+    result.dateParser = [QMDateParser parserUsing: locale];
     
     return result;
 }

@@ -12,6 +12,8 @@
 		123CC43320304794009BA266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123CC43220304794009BA266 /* Assets.xcassets */; };
 		123CC43620304794009BA266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123CC43420304794009BA266 /* Main.storyboard */; };
 		123CC43920304794009BA266 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 123CC43820304794009BA266 /* main.m */; };
+		1247E3F8208D149900F2419F /* QMEventExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1247E3F7208D149900F2419F /* QMEventExample.m */; };
+		1247E3F9208D149900F2419F /* QMEventExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1247E3F7208D149900F2419F /* QMEventExample.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -54,6 +56,8 @@
 		123CC43720304794009BA266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		123CC43820304794009BA266 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		123CC43A20304794009BA266 /* QMEventTextParser_Mac_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QMEventTextParser_Mac_Example.entitlements; sourceTree = "<group>"; };
+		1247E3F6208D149900F2419F /* QMEventExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMEventExample.h; sourceTree = "<group>"; };
+		1247E3F7208D149900F2419F /* QMEventExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMEventExample.m; sourceTree = "<group>"; };
 		1FFF4C460EA1D2805BA92160 /* Pods-QMEventTextParsing_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMEventTextParsing_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QMEventTextParsing_Example/Pods-QMEventTextParsing_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2863B31E8265B93B9566512E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2CF34FA7952A35EC3F31014D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				1247E3F6208D149900F2419F /* QMEventExample.h */,
+				1247E3F7208D149900F2419F /* QMEventExample.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for QMEventTextParsing */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -499,6 +505,7 @@
 				123CC43120304794009BA266 /* ViewController.m in Sources */,
 				123CC43920304794009BA266 /* main.m in Sources */,
 				123CC42E20304794009BA266 /* AppDelegate.m in Sources */,
+				1247E3F9208D149900F2419F /* QMEventExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +516,7 @@
 				6003F59E195388D20070C39A /* QMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* QMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				1247E3F8208D149900F2419F /* QMEventExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

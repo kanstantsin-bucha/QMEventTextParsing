@@ -88,7 +88,7 @@
 + (instancetype) detectorUsingConfiguration: (id<QMTextRecognitionConfigInterface>) config
                              peopleEntitled: (id<QMPeopleEntitledInterface>) entitled {
     
-    QMDateParser * dateParser = [QMDateParser new];
+    QMDateParser * dateParser = [QMDateParser parserUsing: config.locale];
     
     if (entitled == nil
         || config.language == nil

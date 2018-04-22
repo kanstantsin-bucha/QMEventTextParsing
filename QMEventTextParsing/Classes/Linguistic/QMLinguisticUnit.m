@@ -159,7 +159,8 @@
         [substitutions addEntriesFromDictionary:self.config.seasons];
     }
     self.tmpDateMatch = [QMSemanticDateMatcher matcherUsing: [substitutions copy]
-                                                   calendar: self.calendar];
+                                                   calendar: self.calendar
+                                                     locale: self.config.locale];
     self.tmpDateMatch.sequenceDelimiter = delimiter;
     self.tmpDateMatch.targetBucket = (NSMutableArray<QMSemanticMatcher *> *) self.dateMatchesBucket;
 

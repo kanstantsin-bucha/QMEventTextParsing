@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QMEventTextParsing'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'A framework to parse date, place and person from a sentence'
   
   # This description is used to generate tags and improve search results.

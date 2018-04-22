@@ -11,12 +11,48 @@
 
 @interface QMDateParser ()
 
+@property (strong, nonatomic) NSNumberFormatter * numberFormatter;
+@property (strong, nonatomic) NSLocale * locale;
+
 @end;
 
 
 @implementation QMDateParser
 
     //MARK: -life cycle-
+
++ (instancetype) parserUsing: (NSLocale *) locale {
+    
+    if (locale == nil) {
+        
+        return nil;
+    }
+    
+    QMDateParser * result = [[self alloc] init];
+    result.locale = locale;
+    
+    return result;
+}
+    //MARK: -property-
+
+- (NSNumberFormatter *) numberFormatter {
+    
+    if (_numberFormatter != nil) {
+        
+        return _numberFormatter;
+    }
+    
+    _numberFormatter = [NSNumberFormatter new];
+    
+    NSOperatingSystemVersion version = {10,11,0};
+    if ([[NSProcessInfo processInfo] isOperatingSystemAtLeastVersion: version]) {
+        
+        _numberFormatter.numberStyle = NSNumberFormatterOrdinalStyle;
+    }
+    
+    _numberFormatter.locale = self.locale;
+    return _numberFormatter;
+}
 
     //MARK: -interface-
 
@@ -35,17 +71,30 @@
 }
 
 - (NSInteger) dayUsingNumberSequence: (NSString *) sequence {
-    if (sequence.length != 2) {
+    
+    NSInteger result = NSNotFound;
+    
+    if (sequence.length <= 2) {
+        
+        result = sequence.integerValue;
+    }
+    
+    if (result == NSNotFound) {
+        
+        NSNumber * complexNumber = [self.numberFormatter numberFromString: sequence];
+        
+        result = complexNumber != nil ? complexNumber.integerValue
+                                      : NSNotFound;
+    }
+    
+    if (result == NSNotFound
+        || result < 1
+        || result > 31) {
+        
         return NSNotFound;
     }
     
-    NSInteger possibleDay = sequence.integerValue;
-    if (possibleDay > 0
-        && possibleDay <= 31) {
-        return possibleDay;
-    }
-    
-    return NSNotFound;
+    return result;
 }
 
 - (NSDate *) dateFromDay: (NSInteger) day

@@ -20,6 +20,7 @@
 @property (assign, nonatomic, readonly, nullable) NSDate * date;
 
 + (instancetype _Nullable) matcherUsing: (NSDictionary<NSString *, NSNumber *> * _Nonnull) noun2MonthSubstitution
-                               calendar: (NSCalendar * _Nonnull) calendar;
+                               calendar: (NSCalendar * _Nonnull) calendar
+                                 locale: (NSLocale * _Nonnull) locale;
 
 @end

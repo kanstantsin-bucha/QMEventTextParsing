@@ -10,6 +10,10 @@
 
 @interface QMDateParser : NSObject
 
++ (instancetype _Nullable) parserUsing: (NSLocale * _Nonnull) locale;
+
++ (instancetype) new NS_UNAVAILABLE;
+
 - (NSInteger) yearUsingNumberSequence: (NSString * _Nonnull) sequence;
 - (NSInteger) dayUsingNumberSequence: (NSString * _Nonnull) sequence;
 
