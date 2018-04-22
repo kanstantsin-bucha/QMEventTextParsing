@@ -43,9 +43,8 @@
     }
     
     _numberFormatter = [NSNumberFormatter new];
-    
-    NSOperatingSystemVersion version = {10,11,0};
-    if ([[NSProcessInfo processInfo] isOperatingSystemAtLeastVersion: version]) {
+        
+    if (@available(iOS 10.0, macOS 10.11, *)) {
         
         _numberFormatter.numberStyle = NSNumberFormatterOrdinalStyle;
     }
