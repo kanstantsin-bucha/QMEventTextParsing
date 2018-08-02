@@ -143,21 +143,17 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Bolts-iOS/Bolts.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CDBKit-iOS/CDBKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LMGeocoderUniversal-iOS/LMGeocoderUniversal.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LocationInfo-iOS/LocationInfo.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Parse-iOS/Parse.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMEventTextParsing-iOS/QMEventTextParsing.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMGeocoder-iOS/QMGeocoder.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TBParse-iOS/TBParse.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Bolts-iOS/Bolts.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CDBKit-iOS/CDBKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LMGeocoderUniversal-iOS/LMGeocoderUniversal.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LocationInfo-iOS/LocationInfo.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Parse-iOS/Parse.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMEventTextParsing-iOS/QMEventTextParsing.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMGeocoder-iOS/QMGeocoder.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TBParse-iOS/TBParse.framework"

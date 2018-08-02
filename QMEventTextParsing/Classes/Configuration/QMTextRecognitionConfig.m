@@ -7,7 +7,7 @@
 //
 
 #import "QMTextRecognitionConfig+Private.h"
-#import <TBParse/TBParse.h>
+#import <TBParse/TBParseConversion.h>
 
 
 @implementation QMTextRecognitionConfig
@@ -51,19 +51,19 @@
     
 
     // QMWaterfallDetectorType
-    NSString * waterfallOrderList = [TBParse objectOfClass: [NSString class]
-                                            fromDictionary: configurationDictionary
-                                                  usingKey: QMTextRecognitionConfig_WaterfallParserOrderListKey];
-    result.waterfallParserOrderList = [TBParse numbersUsingStringsList: waterfallOrderList];
+    NSString * waterfallOrderList = [TBParseConversion objectOfClass: [NSString class]
+                                                      fromDictionary: configurationDictionary
+                                                            usingKey: QMTextRecognitionConfig_WaterfallParserOrderListKey];
+    result.waterfallParserOrderList = [TBParseConversion numbersUsingStringsList: waterfallOrderList];
     
-    NSNumber * geocoderServiceProvider = [TBParse objectOfClass: [NSNumber class]
-                                                 fromDictionary: configurationDictionary
-                                                       usingKey: QMTextRecognitionConfig_GeocoderServiceProviderKey];
+    NSNumber * geocoderServiceProvider = [TBParseConversion objectOfClass: [NSNumber class]
+                                                           fromDictionary: configurationDictionary
+                                                                 usingKey: QMTextRecognitionConfig_GeocoderServiceProviderKey];
     result.geocoderServiceProvider = geocoderServiceProvider.integerValue;
     
-    NSNumber * speechParserServiceProvider = [TBParse objectOfClass: [NSNumber class]
-                                                     fromDictionary: configurationDictionary
-                                                           usingKey: QMTextRecognitionConfig_EventParserServiceProviderKey];
+    NSNumber * speechParserServiceProvider = [TBParseConversion objectOfClass: [NSNumber class]
+                                                               fromDictionary: configurationDictionary
+                                                                     usingKey: QMTextRecognitionConfig_EventParserServiceProviderKey];
     result.eventParserServiceProvider = speechParserServiceProvider.integerValue;
     
     // QMLinguisticDetectorType
@@ -76,34 +76,34 @@
         languageCongig = (QMConfigDict *)languageSpecific[QMTextRecognitionConfig_DefaultLanguageConfigKey];
     }
     
-    NSString * seasons = [TBParse objectOfClass: [NSString class]
-                                 fromDictionary: languageCongig
-                                       usingKey: QMTextRecognitionConfig_SeasonsKey];
-    result.seasons = [TBParse pairsUsingStrings: seasons];
+    NSString * seasons = [TBParseConversion objectOfClass: [NSString class]
+                                           fromDictionary: languageCongig
+                                                 usingKey: QMTextRecognitionConfig_SeasonsKey];
+    result.seasons = [TBParseConversion pairsUsingStrings: seasons];
     
-    NSString * punctuation = [TBParse objectOfClass: [NSString class]
-                                     fromDictionary: languageCongig
-                                           usingKey: QMTextRecognitionConfig_PunctuationMarksKey];
+    NSString * punctuation = [TBParseConversion objectOfClass: [NSString class]
+                                               fromDictionary: languageCongig
+                                                     usingKey: QMTextRecognitionConfig_PunctuationMarksKey];
     
-    result.punctuationMarks = [TBParse wordsUsingStringsList: punctuation];
+    result.punctuationMarks = [TBParseConversion wordsUsingStringsList: punctuation];
     
-    NSString * unifyingPrepositions = [TBParse objectOfClass: [NSString class]
-                                              fromDictionary: languageCongig
-                                                    usingKey: QMTextRecognitionConfig_UnifyingPrepositionsKey];
+    NSString * unifyingPrepositions = [TBParseConversion objectOfClass: [NSString class]
+                                                        fromDictionary: languageCongig
+                                                              usingKey: QMTextRecognitionConfig_UnifyingPrepositionsKey];
     
-    result.unifyingPrepositions = [TBParse wordsUsingStringsList: unifyingPrepositions];
+    result.unifyingPrepositions = [TBParseConversion wordsUsingStringsList: unifyingPrepositions];
     
-    NSString * locationPrepositions = [TBParse objectOfClass: [NSString class]
-                                              fromDictionary: languageCongig
-                                                    usingKey: QMTextRecognitionConfig_LocationPrepositionsKey];
+    NSString * locationPrepositions = [TBParseConversion objectOfClass: [NSString class]
+                                                        fromDictionary: languageCongig
+                                                              usingKey: QMTextRecognitionConfig_LocationPrepositionsKey];
     
-    result.locationPrepositions = [TBParse wordsUsingStringsList: locationPrepositions];
+    result.locationPrepositions = [TBParseConversion wordsUsingStringsList: locationPrepositions];
     
-    NSString * definedArticles = [TBParse objectOfClass: [NSString class]
-                                         fromDictionary: languageCongig
-                                               usingKey: QMTextRecognitionConfig_DefiniteArticlesKey];
+    NSString * definedArticles = [TBParseConversion objectOfClass: [NSString class]
+                                                   fromDictionary: languageCongig
+                                                         usingKey: QMTextRecognitionConfig_DefiniteArticlesKey];
     
-    result.definiteArticles = [TBParse wordsUsingStringsList: definedArticles];
+    result.definiteArticles = [TBParseConversion wordsUsingStringsList: definedArticles];
     
     return result;
 }

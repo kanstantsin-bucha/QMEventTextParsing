@@ -143,21 +143,17 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Bolts-macOS/Bolts.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CDBKit-macOS/CDBKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LMGeocoderUniversal-macOS/LMGeocoderUniversal.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LocationInfo-macOS/LocationInfo.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Parse-macOS/Parse.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMEventTextParsing-macOS/QMEventTextParsing.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMGeocoder-macOS/QMGeocoder.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TBParse-macOS/TBParse.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Bolts-macOS/Bolts.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CDBKit-macOS/CDBKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LMGeocoderUniversal-macOS/LMGeocoderUniversal.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LocationInfo-macOS/LocationInfo.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Parse-macOS/Parse.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMEventTextParsing-macOS/QMEventTextParsing.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMGeocoder-macOS/QMGeocoder.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TBParse-macOS/TBParse.framework"

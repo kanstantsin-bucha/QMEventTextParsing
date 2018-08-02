@@ -1,5 +1,4 @@
 PODS:
-  - Bolts/Tasks (1.9.0)
   - CDBKit (1.4.3):
     - CDBKit/Array (= 1.4.3)
     - CDBKit/Core (= 1.4.3)
@@ -28,32 +27,25 @@ PODS:
     - LocationInfo/Core
   - LocationInfo/StringConversion (1.1.4):
     - LocationInfo/Core
-  - Parse (1.17.1):
-    - Parse/Core (= 1.17.1)
-  - Parse/Core (1.17.1):
-    - Bolts/Tasks (~> 1.9)
   - QMEventTextParsing (1.2.0):
     - CDBKit
     - QMGeocoder
-    - TBParse
+    - TBParse/Conversion
   - QMGeocoder (1.0.3):
     - LMGeocoderUniversal
     - LocationInfo
     - LocationInfo/AppleGeocoder
     - LocationInfo/LMGeocoder
-  - TBParse (1.0.1):
-    - Parse
+  - TBParse/Conversion (1.1.0)
 
 DEPENDENCIES:
   - QMEventTextParsing (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Bolts
     - CDBKit
     - LMGeocoderUniversal
     - LocationInfo
-    - Parse
     - QMGeocoder
     - TBParse
 
@@ -62,14 +54,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   CDBKit: aeb16954308b9a39c07bf1deaf32dc64074f0be2
   LMGeocoderUniversal: c093e8d7705745179ce93ff6d3c39e666e6bea67
   LocationInfo: 459554282ac2e5924dd1e4bd49dbf65944c9be7a
-  Parse: d3edaf8c7c722cb33cb83ba7821d015ae32d362d
-  QMEventTextParsing: 603e20415cf750115507149e6ed6f1bc7cbd6eb2
+  QMEventTextParsing: ed40ac895918f91c443acc998cf54f8f82e1136b
   QMGeocoder: 33f66b9c9567b6c1014796feccf701d3cb61dc84
-  TBParse: f05765055c78a4a5f252bde0f166ba6b804786e3
+  TBParse: c024a817432989ea90d96dc04ac483e1f6aa9693
 
 PODFILE CHECKSUM: 2af192bf79686d1ae538c904e153ec356e0c33bb
 
