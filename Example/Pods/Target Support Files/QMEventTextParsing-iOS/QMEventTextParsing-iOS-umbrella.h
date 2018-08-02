@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "QMConfigParser.h"
 #import "QMPeopleEntitled.h"
 #import "QMTextRecognitionConfig+Private.h"
 #import "QMTextRecognitionConfig.h"

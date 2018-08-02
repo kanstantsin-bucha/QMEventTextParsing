@@ -1,0 +1,6 @@
+framework module TBParse {
+  umbrella header "TBParse-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

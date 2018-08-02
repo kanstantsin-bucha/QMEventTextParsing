@@ -47,7 +47,8 @@ static id<QMEventParserInterface> _parser = nil;
     [_parser parseText: text
             withCompletion: ^(QMParserResult * _Nullable result, NSError * _Nullable error) {
                 
-        NSLog(@"result %@", result);
+        NSLog(@"\n\r ==================== \n\r");
+        NSLog(@"%@", result);
     }];
     
     QMLogicDateDetector * dateDetector = [QMLogicDateDetector detectorUsingConfiguration: config

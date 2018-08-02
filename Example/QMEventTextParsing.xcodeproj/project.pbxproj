@@ -256,7 +256,6 @@
 				123CC42720304794009BA266 /* Frameworks */,
 				123CC42820304794009BA266 /* Resources */,
 				1AE27AFB78E5C77356249650 /* [CP] Embed Pods Frameworks */,
-				08E4A1661B508849A2C8C4DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -276,7 +275,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				DA37CE63988B9B5C53EC6B68 /* [CP] Embed Pods Frameworks */,
-				E0CB7A1C2077310A2A205265 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -377,21 +375,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08E4A1661B508849A2C8C4DD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMEventTextParser-Mac-Example/Pods-QMEventTextParser-Mac-Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1AE27AFB78E5C77356249650 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,19 +382,25 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QMEventTextParser-Mac-Example/Pods-QMEventTextParser-Mac-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts-macOS/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/CDBKit-macOS/CDBKit.framework",
 				"${BUILT_PRODUCTS_DIR}/LMGeocoderUniversal-macOS/LMGeocoderUniversal.framework",
 				"${BUILT_PRODUCTS_DIR}/LocationInfo-macOS/LocationInfo.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse-macOS/Parse.framework",
 				"${BUILT_PRODUCTS_DIR}/QMEventTextParsing-macOS/QMEventTextParsing.framework",
 				"${BUILT_PRODUCTS_DIR}/QMGeocoder-macOS/QMGeocoder.framework",
+				"${BUILT_PRODUCTS_DIR}/TBParse-macOS/TBParse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDBKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMGeocoderUniversal.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocationInfo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMEventTextParsing.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMGeocoder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBParse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -461,38 +450,29 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QMEventTextParsing_Example/Pods-QMEventTextParsing_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts-iOS/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/CDBKit-iOS/CDBKit.framework",
 				"${BUILT_PRODUCTS_DIR}/LMGeocoderUniversal-iOS/LMGeocoderUniversal.framework",
 				"${BUILT_PRODUCTS_DIR}/LocationInfo-iOS/LocationInfo.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse-iOS/Parse.framework",
 				"${BUILT_PRODUCTS_DIR}/QMEventTextParsing-iOS/QMEventTextParsing.framework",
 				"${BUILT_PRODUCTS_DIR}/QMGeocoder-iOS/QMGeocoder.framework",
+				"${BUILT_PRODUCTS_DIR}/TBParse-iOS/TBParse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDBKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMGeocoderUniversal.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocationInfo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMEventTextParsing.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMGeocoder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBParse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMEventTextParsing_Example/Pods-QMEventTextParsing_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E0CB7A1C2077310A2A205265 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMEventTextParsing_Example/Pods-QMEventTextParsing_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
