@@ -118,7 +118,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## TBParse
+## TBConversions
 
 Copyright (c) 2018 truebucha <truebucha@gmail.com>
 

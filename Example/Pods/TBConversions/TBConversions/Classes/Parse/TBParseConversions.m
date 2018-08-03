@@ -6,13 +6,13 @@
 //  Copyright © 2018 Qroma. All rights reserved.
 //
 
-#import "TBParseConversion.h"
+#import "TBParseConversions.h"
 
 #define TB_Parse_Strings_ComponentsSeparators_Characters @";"
 #define TB_Parse_Strings_PairDivider_Characters @":"
 
 
-@implementation TBParseConversion
+@implementation TBParseConversions
 
 /// MARK: string list conversin conversion
 

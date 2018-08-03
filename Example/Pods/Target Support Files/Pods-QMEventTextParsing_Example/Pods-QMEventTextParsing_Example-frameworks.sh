@@ -148,7 +148,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LocationInfo-iOS/LocationInfo.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMEventTextParsing-iOS/QMEventTextParsing.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMGeocoder-iOS/QMGeocoder.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/TBParse-iOS/TBParse.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TBConversions-iOS/TBConversions.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CDBKit-iOS/CDBKit.framework"
@@ -156,7 +156,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LocationInfo-iOS/LocationInfo.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMEventTextParsing-iOS/QMEventTextParsing.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMGeocoder-iOS/QMGeocoder.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/TBParse-iOS/TBParse.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TBConversions-iOS/TBConversions.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

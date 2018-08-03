@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "TBParseConversion.h"
+#import "TBParseConversions.h"
 
-FOUNDATION_EXPORT double TBParseVersionNumber;
-FOUNDATION_EXPORT const unsigned char TBParseVersionString[];
+FOUNDATION_EXPORT double TBConversionsVersionNumber;
+FOUNDATION_EXPORT const unsigned char TBConversionsVersionString[];
 

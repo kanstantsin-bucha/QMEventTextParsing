@@ -387,7 +387,7 @@
 				"${BUILT_PRODUCTS_DIR}/LocationInfo-macOS/LocationInfo.framework",
 				"${BUILT_PRODUCTS_DIR}/QMEventTextParsing-macOS/QMEventTextParsing.framework",
 				"${BUILT_PRODUCTS_DIR}/QMGeocoder-macOS/QMGeocoder.framework",
-				"${BUILT_PRODUCTS_DIR}/TBParse-macOS/TBParse.framework",
+				"${BUILT_PRODUCTS_DIR}/TBConversions-macOS/TBConversions.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -396,7 +396,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocationInfo.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMEventTextParsing.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMGeocoder.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBParse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBConversions.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -451,7 +451,7 @@
 				"${BUILT_PRODUCTS_DIR}/LocationInfo-iOS/LocationInfo.framework",
 				"${BUILT_PRODUCTS_DIR}/QMEventTextParsing-iOS/QMEventTextParsing.framework",
 				"${BUILT_PRODUCTS_DIR}/QMGeocoder-iOS/QMGeocoder.framework",
-				"${BUILT_PRODUCTS_DIR}/TBParse-iOS/TBParse.framework",
+				"${BUILT_PRODUCTS_DIR}/TBConversions-iOS/TBConversions.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -460,7 +460,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocationInfo.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMEventTextParsing.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMGeocoder.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBParse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBConversions.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

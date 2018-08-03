@@ -10,7 +10,7 @@
 
 @class PFObject;
 
-@interface TBParseConversion : NSObject
+@interface TBParseConversions : NSObject
     
 + (NSArray<NSNumber *> *) numbersUsingStringsList: (NSString *) list;
 + (NSArray<NSString *> *) wordsUsingStringsList: (NSString *) list;

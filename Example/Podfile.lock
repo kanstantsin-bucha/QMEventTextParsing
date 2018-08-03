@@ -27,16 +27,16 @@ PODS:
     - LocationInfo/Core
   - LocationInfo/StringConversion (1.1.4):
     - LocationInfo/Core
-  - QMEventTextParsing (1.2.0):
+  - QMEventTextParsing (1.2.2):
     - CDBKit
     - QMGeocoder
-    - TBParse/Conversion
+    - TBConversions/Parse
   - QMGeocoder (1.0.3):
     - LMGeocoderUniversal
     - LocationInfo
     - LocationInfo/AppleGeocoder
     - LocationInfo/LMGeocoder
-  - TBParse/Conversion (1.1.0)
+  - TBConversions/Parse (1.0.0)
 
 DEPENDENCIES:
   - QMEventTextParsing (from `../`)
@@ -47,7 +47,7 @@ SPEC REPOS:
     - LMGeocoderUniversal
     - LocationInfo
     - QMGeocoder
-    - TBParse
+    - TBConversions
 
 EXTERNAL SOURCES:
   QMEventTextParsing:
@@ -57,9 +57,9 @@ SPEC CHECKSUMS:
   CDBKit: aeb16954308b9a39c07bf1deaf32dc64074f0be2
   LMGeocoderUniversal: c093e8d7705745179ce93ff6d3c39e666e6bea67
   LocationInfo: 459554282ac2e5924dd1e4bd49dbf65944c9be7a
-  QMEventTextParsing: ed40ac895918f91c443acc998cf54f8f82e1136b
+  QMEventTextParsing: 64d138b6a12292e68aa0cb40f2be39a008afe705
   QMGeocoder: 33f66b9c9567b6c1014796feccf701d3cb61dc84
-  TBParse: c024a817432989ea90d96dc04ac483e1f6aa9693
+  TBConversions: a49cd4e0bc30e426b0f2595b23d6e47e958584c8
 
 PODFILE CHECKSUM: 2af192bf79686d1ae538c904e153ec356e0c33bb
 

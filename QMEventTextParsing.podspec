@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QMEventTextParsing'
-  s.version          = '1.2.1'
+  s.version          = '1.2.2'
   s.summary          = 'A framework to parse date, place and person from a sentence'
   
   # This description is used to generate tags and improve search results.
@@ -35,5 +35,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
   s.dependency 'QMGeocoder'
   s.dependency 'CDBKit'
-  s.dependency 'TBParse/Conversion'
+  s.dependency 'TBConversions/Parse'
 end

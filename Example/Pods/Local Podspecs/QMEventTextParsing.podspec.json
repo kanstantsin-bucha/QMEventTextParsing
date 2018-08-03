@@ -1,6 +1,6 @@
 {
   "name": "QMEventTextParsing",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "summary": "A framework to parse date, place and person from a sentence",
   "description": "A framework to parse date, place and person from a sentence. It uses geocoding to provide a valid place. it uses relationships to provide valid person names from candidates.",
   "homepage": "https://github.com/truebucha/QMEventTextParsing",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/truebucha/QMEventTextParsing.git",
-    "tag": "1.2.0"
+    "tag": "1.2.2"
   },
   "social_media_url": "https://twitter.com/truebucha",
   "platforms": {
@@ -30,7 +30,7 @@
     "CDBKit": [
 
     ],
-    "TBParse/Conversion": [
+    "TBConversions/Parse": [
 
     ]
   }
