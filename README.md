@@ -1,3 +1,5 @@
+It was archived. Please write to me at kanstantsin.bucha@icloud.com in case any issues occur.
+
 # QMEventTextParsing
 
 [![CI Status](http://img.shields.io/travis/truebucha/QMEventTextParsing.svg?style=flat)](https://travis-ci.org/truebucha/QMEventTextParsing)
